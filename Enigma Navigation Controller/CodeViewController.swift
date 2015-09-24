@@ -134,6 +134,10 @@ class CodeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         default: break
         }
         
+        if (history.text!.characters.count + 1) % 6 == 0 {
+            history.text! += " "
+        }
+        
     }
     
     @IBAction func buttonRelease(sender: UIButton) { // Return all bulb to "off" (darkGrayColor).
