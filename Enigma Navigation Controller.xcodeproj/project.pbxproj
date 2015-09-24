@@ -14,6 +14,7 @@
 		1E508E8D1BB14806007921E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E8B1BB14806007921E1 /* LaunchScreen.storyboard */; };
 		1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E941BB154A1007921E1 /* CodeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		1E5900F71BB2B25300A3FE8C /* CheatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1E5900F91BB41E5200A3FE8C /* EnigmaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1E508E8E1BB14806007921E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E508E941BB154A1007921E1 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheatViewController.swift; sourceTree = "<group>"; };
+		1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnigmaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1E508E811BB14806007921E1 /* Enigma Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */,
 				1E508E821BB14806007921E1 /* AppDelegate.swift */,
 				1E508E841BB14806007921E1 /* SetupViewController.swift */,
 				1E508E941BB154A1007921E1 /* CodeViewController.swift */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5900F91BB41E5200A3FE8C /* EnigmaModel.swift in Sources */,
 				1E5900F71BB2B25300A3FE8C /* CheatViewController.swift in Sources */,
 				1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */,
 				1E508E851BB14806007921E1 /* SetupViewController.swift in Sources */,

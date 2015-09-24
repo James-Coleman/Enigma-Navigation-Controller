@@ -10,6 +10,8 @@ import UIKit
 
 class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    let enigma = EnigmaModel()
+    
     // Default plugboard.
     
     var setupPlugboard = ["A":"A", "B":"B", "C":"C", "D":"D", "E":"E", "F":"F", "G":"G", "H":"H", "I":"I", "J":"J", "K":"K", "L":"L", "M":"M", "N":"N", "O":"O", "P":"P", "Q":"Q", "R":"R", "S":"S", "T":"T", "U":"U", "V":"V", "W":"W", "X":"X", "Y":"Y", "Z":"Z"]
@@ -490,18 +492,6 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK: Setup rotors and reflector.
-    
-    let rotorI = (rotor:["A":"E", "B":"K", "C":"M", "D":"F", "E":"L", "F":"G", "G":"D", "H":"Q", "I":"V", "J":"Z", "K":"N", "L":"T", "M":"O", "N":"W", "O":"Y", "P":"H", "Q":"X", "R":"U", "S":"S", "T":"P", "U":"A", "V":"I", "W":"B", "X":"R", "Y":"C", "Z":"J"], step:8) // Step is index of pickerView "R".
-    let rotorII = (rotor:["A":"A", "B":"J", "C":"D", "D":"K", "E":"S", "F":"I", "G":"R", "H":"U", "I":"X", "J":"B", "K":"L", "L":"H", "M":"W", "N":"T", "O":"M", "P":"C", "Q":"Q", "R":"G", "S":"Z", "T":"N", "U":"P", "V":"Y", "W":"F", "X":"V", "Y":"O", "Z":"E"], step:20) // Step is index of pickerView "F".
-    let rotorIII = (rotor:["A":"B", "B":"D", "C":"F", "D":"H", "E":"J", "F":"L", "G":"C", "H":"P", "I":"R", "J":"T", "K":"X", "L":"V", "M":"Z", "N":"N", "O":"Y", "P":"E", "Q":"I", "R":"W", "S":"G", "T":"A", "U":"K", "V":"M", "W":"U", "X":"S", "Y":"Q", "Z":"O"], step:3) // Step is index of pickerView "W".
-    let rotorIV = (rotor:["A":"E", "B":"S", "C":"O", "D":"V", "E":"P", "F":"Z", "G":"J", "H":"A", "I":"Y", "J":"Q", "K":"U", "L":"I", "M":"R", "N":"H", "O":"X", "P":"L", "Q":"N", "R":"F", "S":"T", "T":"G", "U":"K", "V":"D", "W":"C", "X":"M", "Y":"W", "Z":"B"], step:15) // Step is index of pickerView "K".
-    let rotorV = (rotor:["A":"V", "B":"Z", "C":"B", "D":"R", "E":"G", "F":"I", "G":"T", "H":"Y", "I":"U", "J":"P", "K":"S", "L":"D", "M":"N", "N":"H", "O":"L", "P":"X", "Q":"A", "R":"W", "S":"M", "T":"J", "U":"Q", "V":"O", "W":"F", "X":"E", "Y":"C", "Z":"K"], step:25) // Step is index of pickerView "A".
-    
-    let reflectorA = ["A":"E", "B":"J", "C":"M", "D":"Z", "E":"A", "F":"L", "G":"Y", "H":"X", "I":"V", "J":"B", "K":"W", "L":"F", "M":"C", "N":"R", "O":"Q", "P":"U", "Q":"O", "R":"N", "S":"T", "T":"S", "U":"P", "V":"I", "W":"K", "X":"H", "Y":"G", "Z":"D"]
-    let reflectorB = ["A":"Y", "B":"R", "C":"U", "D":"H", "E":"Q", "F":"S", "G":"L", "H":"D", "I":"P", "J":"X", "K":"N", "L":"G", "M":"O", "N":"K", "O":"M", "P":"I", "Q":"E", "R":"B", "S":"F", "T":"Z", "U":"C", "V":"W", "W":"V", "X":"J", "Y":"A", "Z":"T"]
-    let reflectorC = ["A":"F", "B":"V", "C":"P", "D":"J", "E":"I", "F":"A", "G":"O", "H":"Y", "I":"E", "J":"D", "K":"R", "L":"Z", "M":"X", "N":"W", "O":"G", "P":"C", "Q":"T", "R":"K", "S":"U", "T":"Q", "U":"S", "V":"B", "W":"N", "X":"M", "Y":"H", "Z":"L"]
-    
     // MARK: - Navigation
     
     let letterReverser = [25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0] // To account for rotor behavior vs pickerView behavior.
@@ -511,127 +501,127 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     // Get the new view controller using segue.destinationViewController.
     // Pass the selected object to the new view controller.
         
-        if sender?.titleLabel!!.text == "Authentic" {
+        if segue.destinationViewController is CodeViewController {
             
-            let codeViewController : CodeViewController = segue.destinationViewController as! CodeViewController
+            let codeViewController = segue.destinationViewController as! CodeViewController
             
             // Making pickerView rotor windows match.
-            codeViewController.windowLeft = rotorWindows.selectedRowInComponent(0)
-            codeViewController.windowCentre = rotorWindows.selectedRowInComponent(1)
-            codeViewController.windowRight = rotorWindows.selectedRowInComponent(2)
+            codeViewController.enigma.windowLeft = rotorWindows.selectedRowInComponent(0)
+            codeViewController.enigma.windowCentre = rotorWindows.selectedRowInComponent(1)
+            codeViewController.enigma.windowRight = rotorWindows.selectedRowInComponent(2)
             
             // Setting rotors.
             
             switch rotorSelection.selectedRowInComponent(0) {
-            case 0: codeViewController.reflector = reflectorA
-            case 1: codeViewController.reflector = reflectorB
-            case 2: codeViewController.reflector = reflectorC
+            case 0: codeViewController.enigma.reflector = enigma.reflectorA
+            case 1: codeViewController.enigma.reflector = enigma.reflectorB
+            case 2: codeViewController.enigma.reflector = enigma.reflectorC
             default: break
             }
             
             switch rotorSelection.selectedRowInComponent(1) {
-            case 0: codeViewController.left = rotorI
-            case 1: codeViewController.left = rotorII
-            case 2: codeViewController.left = rotorIII
-            case 3: codeViewController.left = rotorIV
-            case 4: codeViewController.left = rotorV
+            case 0: codeViewController.enigma.left = enigma.rotorI
+            case 1: codeViewController.enigma.left = enigma.rotorII
+            case 2: codeViewController.enigma.left = enigma.rotorIII
+            case 3: codeViewController.enigma.left = enigma.rotorIV
+            case 4: codeViewController.enigma.left = enigma.rotorV
             default: break
             }
             
             switch rotorSelection.selectedRowInComponent(2) {
-            case 0: codeViewController.centre = rotorI
-            case 1: codeViewController.centre = rotorII
-            case 2: codeViewController.centre = rotorIII
-            case 3: codeViewController.centre = rotorIV
-            case 4: codeViewController.centre = rotorV
+            case 0: codeViewController.enigma.centre = enigma.rotorI
+            case 1: codeViewController.enigma.centre = enigma.rotorII
+            case 2: codeViewController.enigma.centre = enigma.rotorIII
+            case 3: codeViewController.enigma.centre = enigma.rotorIV
+            case 4: codeViewController.enigma.centre = enigma.rotorV
             default: break
             }
             
             switch rotorSelection.selectedRowInComponent(3) {
-            case 0: codeViewController.right = rotorI
-            case 1: codeViewController.right = rotorII
-            case 2: codeViewController.right = rotorIII
-            case 3: codeViewController.right = rotorIV
-            case 4: codeViewController.right = rotorV
+            case 0: codeViewController.enigma.right = enigma.rotorI
+            case 1: codeViewController.enigma.right = enigma.rotorII
+            case 2: codeViewController.enigma.right = enigma.rotorIII
+            case 3: codeViewController.enigma.right = enigma.rotorIV
+            case 4: codeViewController.enigma.right = enigma.rotorV
             default: break
             }
             
             // Setting rotor pins.
             
-            codeViewController.ringLeft = letterReverser[ringSettings.selectedRowInComponent(0)]
-            codeViewController.ringCentre = letterReverser[ringSettings.selectedRowInComponent(1)]
-            codeViewController.ringRight = letterReverser[ringSettings.selectedRowInComponent(2)]
+            codeViewController.enigma.ringLeft = letterReverser[ringSettings.selectedRowInComponent(0)]
+            codeViewController.enigma.ringCentre = letterReverser[ringSettings.selectedRowInComponent(1)]
+            codeViewController.enigma.ringRight = letterReverser[ringSettings.selectedRowInComponent(2)]
             
             // Setting rotor offset.
             
-            codeViewController.rotorOffsetLeft = letterReverser[rotorWindows.selectedRowInComponent(0)]
-            codeViewController.rotorOffsetCentre = letterReverser[rotorWindows.selectedRowInComponent(1)]
-            codeViewController.rotorOffsetRight = letterReverser[rotorWindows.selectedRowInComponent(2)]
+            codeViewController.enigma.rotorOffsetLeft = letterReverser[rotorWindows.selectedRowInComponent(0)]
+            codeViewController.enigma.rotorOffsetCentre = letterReverser[rotorWindows.selectedRowInComponent(1)]
+            codeViewController.enigma.rotorOffsetRight = letterReverser[rotorWindows.selectedRowInComponent(2)]
             
             // Setting plugboard.
             
-            codeViewController.plugboard = setupPlugboard
+            codeViewController.enigma.plugboard = setupPlugboard
             
-        } else if sender?.titleLabel!!.text == "Cheat" {
+        } else if segue.destinationViewController is CheatViewController {
             
-            let cheatViewController : CheatViewController = segue.destinationViewController as! CheatViewController
+            let cheatViewController = segue.destinationViewController as! CheatViewController
             
             // Making pickerView rotor windows match.
-            cheatViewController.windowLeft = rotorWindows.selectedRowInComponent(0)
-            cheatViewController.windowCentre = rotorWindows.selectedRowInComponent(1)
-            cheatViewController.windowRight = rotorWindows.selectedRowInComponent(2)
+            cheatViewController.enigma.windowLeft = rotorWindows.selectedRowInComponent(0)
+            cheatViewController.enigma.windowCentre = rotorWindows.selectedRowInComponent(1)
+            cheatViewController.enigma.windowRight = rotorWindows.selectedRowInComponent(2)
             
             // Setting rotors.
             
             switch rotorSelection.selectedRowInComponent(0) {
-            case 0: cheatViewController.reflector = reflectorA
-            case 1: cheatViewController.reflector = reflectorB
-            case 2: cheatViewController.reflector = reflectorC
+            case 0: cheatViewController.enigma.reflector = enigma.reflectorA
+            case 1: cheatViewController.enigma.reflector = enigma.reflectorB
+            case 2: cheatViewController.enigma.reflector = enigma.reflectorC
             default: break
             }
             
             switch rotorSelection.selectedRowInComponent(1) {
-            case 0: cheatViewController.left = rotorI
-            case 1: cheatViewController.left = rotorII
-            case 2: cheatViewController.left = rotorIII
-            case 3: cheatViewController.left = rotorIV
-            case 4: cheatViewController.left = rotorV
+            case 0: cheatViewController.enigma.left = enigma.rotorI
+            case 1: cheatViewController.enigma.left = enigma.rotorII
+            case 2: cheatViewController.enigma.left = enigma.rotorIII
+            case 3: cheatViewController.enigma.left = enigma.rotorIV
+            case 4: cheatViewController.enigma.left = enigma.rotorV
             default: break
             }
             
             switch rotorSelection.selectedRowInComponent(2) {
-            case 0: cheatViewController.centre = rotorI
-            case 1: cheatViewController.centre = rotorII
-            case 2: cheatViewController.centre = rotorIII
-            case 3: cheatViewController.centre = rotorIV
-            case 4: cheatViewController.centre = rotorV
+            case 0: cheatViewController.enigma.centre = enigma.rotorI
+            case 1: cheatViewController.enigma.centre = enigma.rotorII
+            case 2: cheatViewController.enigma.centre = enigma.rotorIII
+            case 3: cheatViewController.enigma.centre = enigma.rotorIV
+            case 4: cheatViewController.enigma.centre = enigma.rotorV
             default: break
             }
             
             switch rotorSelection.selectedRowInComponent(3) {
-            case 0: cheatViewController.right = rotorI
-            case 1: cheatViewController.right = rotorII
-            case 2: cheatViewController.right = rotorIII
-            case 3: cheatViewController.right = rotorIV
-            case 4: cheatViewController.right = rotorV
+            case 0: cheatViewController.enigma.right = enigma.rotorI
+            case 1: cheatViewController.enigma.right = enigma.rotorII
+            case 2: cheatViewController.enigma.right = enigma.rotorIII
+            case 3: cheatViewController.enigma.right = enigma.rotorIV
+            case 4: cheatViewController.enigma.right = enigma.rotorV
             default: break
             }
             
             // Setting rotor pins.
             
-            cheatViewController.ringLeft = letterReverser[ringSettings.selectedRowInComponent(0)]
-            cheatViewController.ringCentre = letterReverser[ringSettings.selectedRowInComponent(1)]
-            cheatViewController.ringRight = letterReverser[ringSettings.selectedRowInComponent(2)]
+            cheatViewController.enigma.ringLeft = letterReverser[ringSettings.selectedRowInComponent(0)]
+            cheatViewController.enigma.ringCentre = letterReverser[ringSettings.selectedRowInComponent(1)]
+            cheatViewController.enigma.ringRight = letterReverser[ringSettings.selectedRowInComponent(2)]
             
             // Setting rotor offset.
             
-            cheatViewController.rotorOffsetLeft = letterReverser[rotorWindows.selectedRowInComponent(0)]
-            cheatViewController.rotorOffsetCentre = letterReverser[rotorWindows.selectedRowInComponent(1)]
-            cheatViewController.rotorOffsetRight = letterReverser[rotorWindows.selectedRowInComponent(2)]
+            cheatViewController.enigma.rotorOffsetLeft = letterReverser[rotorWindows.selectedRowInComponent(0)]
+            cheatViewController.enigma.rotorOffsetCentre = letterReverser[rotorWindows.selectedRowInComponent(1)]
+            cheatViewController.enigma.rotorOffsetRight = letterReverser[rotorWindows.selectedRowInComponent(2)]
             
             // Setting plugboard.
             
-            cheatViewController.plugboard = setupPlugboard
+            cheatViewController.enigma.plugboard = setupPlugboard
         }
     }
 }
