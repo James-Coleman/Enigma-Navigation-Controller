@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E508E831BB14806007921E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E821BB14806007921E1 /* AppDelegate.swift */; };
+		1E508E851BB14806007921E1 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E841BB14806007921E1 /* SetupViewController.swift */; };
+		1E508E881BB14806007921E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E861BB14806007921E1 /* Main.storyboard */; };
+		1E508E8A1BB14806007921E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E891BB14806007921E1 /* Assets.xcassets */; };
+		1E508E8D1BB14806007921E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E8B1BB14806007921E1 /* LaunchScreen.storyboard */; };
+		1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E941BB154A1007921E1 /* CodeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1E5900F71BB2B25300A3FE8C /* CheatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E508E7F1BB14806007921E1 /* Enigma Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enigma Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E508E821BB14806007921E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E508E841BB14806007921E1 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		1E508E871BB14806007921E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E508E891BB14806007921E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E508E8C1BB14806007921E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E508E8E1BB14806007921E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E508E941BB154A1007921E1 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E508E7C1BB14806007921E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E508E761BB14806007921E1 = {
+			isa = PBXGroup;
+			children = (
+				1E508E811BB14806007921E1 /* Enigma Navigation Controller */,
+				1E508E801BB14806007921E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E508E801BB14806007921E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E508E7F1BB14806007921E1 /* Enigma Navigation Controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E508E811BB14806007921E1 /* Enigma Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E508E821BB14806007921E1 /* AppDelegate.swift */,
+				1E508E841BB14806007921E1 /* SetupViewController.swift */,
+				1E508E941BB154A1007921E1 /* CodeViewController.swift */,
+				1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */,
+				1E508E861BB14806007921E1 /* Main.storyboard */,
+				1E508E891BB14806007921E1 /* Assets.xcassets */,
+				1E508E8B1BB14806007921E1 /* LaunchScreen.storyboard */,
+				1E508E8E1BB14806007921E1 /* Info.plist */,
+			);
+			path = "Enigma Navigation Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E508E7E1BB14806007921E1 /* Enigma Navigation Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E508E911BB14806007921E1 /* Build configuration list for PBXNativeTarget "Enigma Navigation Controller" */;
+			buildPhases = (
+				1E508E7B1BB14806007921E1 /* Sources */,
+				1E508E7C1BB14806007921E1 /* Frameworks */,
+				1E508E7D1BB14806007921E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Enigma Navigation Controller";
+			productName = "Enigma Navigation Controller";
+			productReference = 1E508E7F1BB14806007921E1 /* Enigma Navigation Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E508E771BB14806007921E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iSOS;
+				TargetAttributes = {
+					1E508E7E1BB14806007921E1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 1E508E7A1BB14806007921E1 /* Build configuration list for PBXProject "Enigma Navigation Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E508E761BB14806007921E1;
+			productRefGroup = 1E508E801BB14806007921E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E508E7E1BB14806007921E1 /* Enigma Navigation Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E508E7D1BB14806007921E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E508E8D1BB14806007921E1 /* LaunchScreen.storyboard in Resources */,
+				1E508E8A1BB14806007921E1 /* Assets.xcassets in Resources */,
+				1E508E881BB14806007921E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E508E7B1BB14806007921E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5900F71BB2B25300A3FE8C /* CheatViewController.swift in Sources */,
+				1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */,
+				1E508E851BB14806007921E1 /* SetupViewController.swift in Sources */,
+				1E508E831BB14806007921E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E508E861BB14806007921E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E508E871BB14806007921E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E508E8B1BB14806007921E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E508E8C1BB14806007921E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E508E8F1BB14806007921E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E508E901BB14806007921E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E508E921BB14806007921E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Enigma Navigation Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iSOS.Enigma-Navigation-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E508E931BB14806007921E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Enigma Navigation Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iSOS.Enigma-Navigation-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E508E7A1BB14806007921E1 /* Build configuration list for PBXProject "Enigma Navigation Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E508E8F1BB14806007921E1 /* Debug */,
+				1E508E901BB14806007921E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E508E911BB14806007921E1 /* Build configuration list for PBXNativeTarget "Enigma Navigation Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E508E921BB14806007921E1 /* Debug */,
+				1E508E931BB14806007921E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E508E771BB14806007921E1 /* Project object */;
+}
