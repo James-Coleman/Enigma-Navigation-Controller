@@ -157,12 +157,13 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     func code(letter:String) -> String {
         advanceRotor(&right)
         advanceWindow(&windowRight)
-        if doubleStep {
+        if doubleStep || hasSteppedBack {
             advanceRotor(&centre)
             advanceWindow(&windowCentre)
             advanceRotor(&left)
             advanceWindow(&windowLeft)
             doubleStep = false
+            hasSteppedBack = false
         }
         if windowRight == right.step {
             advanceRotor(&centre)
@@ -290,37 +291,33 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     
     var lastLetterEntered : Character = "A"
     
-    var doubleStepBack = false
+    var hasSteppedBack = false
     
     @IBAction func enterText(sender: UITextField) {
         
         if let newCount = sender.text?.characters.count {
             if newCount < textFieldCountBefore {
-                output.text? = (output.text?.substringToIndex((output.text?.endIndex.predecessor())!))!
-                print(textFieldCountBefore, newCount)
+                output.text? = (output.text?.substringToIndex((output.text?.endIndex.predecessor())!))! // Force unwrap all the things.
                 if lastLetterEntered != " " {
                     stepRotor(&right)
                     reverseWindow(&windowRight)
-                    if doubleStepBack {
+                    if windowRight == right.step + 1{ // Has to be + 1 because of stepping over 'into' "R" "F" "W" "K" "A".
+                        stepRotor(&centre)
+                        reverseWindow(&windowCentre)
+                    }
+                    if windowCentre == centre.step && windowRight == right.step {
                         stepRotor(&centre)
                         reverseWindow(&windowCentre)
                         stepRotor(&left)
                         reverseWindow(&windowLeft)
-                        doubleStepBack = false
-                    }
-                    if windowRight == right.step {
-                        stepRotor(&centre)
-                        reverseWindow(&windowCentre)
-                    }
-                    if windowCentre == centre.step - 1 { // TODO: Implement the reverse double step.
-                        doubleStepBack = true
+                        hasSteppedBack = true
+                    } else {
+                        hasSteppedBack = false
                     }
                     rotorWindows.selectRow(windowLeft, inComponent: 0, animated: true)
                     rotorWindows.selectRow(windowCentre, inComponent: 1, animated: true)
                     rotorWindows.selectRow(windowRight, inComponent: 2, animated: true)
-                    print(lastLetterEntered)
-                } else {
-                    print("Shouldn't backstep")
+                    print(letters[windowLeft], letters[windowCentre], letters[windowRight])
                 }
                 if let lastLetter = sender.text?.characters.last {
                     lastLetterEntered = lastLetter
@@ -333,6 +330,7 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
                         output.text! += code("\(lastLetter)")
                     }
                     lastLetterEntered = lastLetter
+                    print(letters[windowLeft], letters[windowCentre], letters[windowRight])
                 }
             }
             
