@@ -308,7 +308,7 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
                     } else {
                         hasSteppedBack = false
                     }
-                    if windowRight == right.step { // Has to be + 1 because of stepping over 'into' "R" "F" "W" "K" "A".
+                    if windowRight == right.step {
                         stepRotor(&centre)
                         reverseWindow(&windowCentre)
                     }
@@ -317,7 +317,6 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
                     rotorWindows.selectRow(windowLeft, inComponent: 0, animated: true)
                     rotorWindows.selectRow(windowCentre, inComponent: 1, animated: true)
                     rotorWindows.selectRow(windowRight, inComponent: 2, animated: true)
-                    print(letters[windowLeft], letters[windowCentre], letters[windowRight])
                 }
                 if let lastLetter = sender.text?.characters.last {
                     lastLetterEntered = lastLetter
@@ -330,15 +329,11 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
                         output.text! += code("\(lastLetter)")
                     }
                     lastLetterEntered = lastLetter
-                    print(letters[windowLeft], letters[windowCentre], letters[windowRight])
                 }
             }
-            
             textFieldCountBefore = (sender.text?.characters.count)!
         }
-        
     }
-    
     
     // MARK: Update offset when rotors are adjusted inside code mode.
     
