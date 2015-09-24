@@ -299,13 +299,7 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
             if newCount < textFieldCountBefore {
                 output.text? = (output.text?.substringToIndex((output.text?.endIndex.predecessor())!))! // Force unwrap all the things.
                 if lastLetterEntered != " " {
-                    stepRotor(&right)
-                    reverseWindow(&windowRight)
-                    if windowRight == right.step + 1{ // Has to be + 1 because of stepping over 'into' "R" "F" "W" "K" "A".
-                        stepRotor(&centre)
-                        reverseWindow(&windowCentre)
-                    }
-                    if windowCentre == centre.step && windowRight == right.step {
+                    if windowCentre == centre.step && windowRight == right.step - 1 {
                         stepRotor(&centre)
                         reverseWindow(&windowCentre)
                         stepRotor(&left)
@@ -314,6 +308,12 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
                     } else {
                         hasSteppedBack = false
                     }
+                    if windowRight == right.step { // Has to be + 1 because of stepping over 'into' "R" "F" "W" "K" "A".
+                        stepRotor(&centre)
+                        reverseWindow(&windowCentre)
+                    }
+                    stepRotor(&right)
+                    reverseWindow(&windowRight)
                     rotorWindows.selectRow(windowLeft, inComponent: 0, animated: true)
                     rotorWindows.selectRow(windowCentre, inComponent: 1, animated: true)
                     rotorWindows.selectRow(windowRight, inComponent: 2, animated: true)
