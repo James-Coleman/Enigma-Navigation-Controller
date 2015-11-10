@@ -8,6 +8,22 @@
 
 import UIKit
 
+//extension ViewController: UIPickerViewDataSource {
+//    func valueForRow(row:Int) -> String {
+//        // the rows repeat every pickerViewData.count items
+//        return pins[row % 26]
+//    }
+//    func rowForValue(value: Int) -> Int? {
+//        if let valueIndex = find(pins, value) {
+//            return pickerViewMiddle + value
+//        }
+//        return nil
+//    }
+//    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+//        return "\(valueForRow(row))"
+//    }
+//}
+
 class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     let enigma = EnigmaModel()
@@ -342,6 +358,7 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         for (key, _) in setupPlugboard {
             if key == to {
                 setupPlugboard[key] = from
+                break
             }
         }
     }
@@ -419,8 +436,8 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             case 0: return rotorOptions[0].count
             default: return rotorOptions[1].count
             }
-        case ringSettings: return pins.count
-        case rotorWindows: return letters.count
+        case ringSettings: return pins.count * 100
+        case rotorWindows: return letters.count * 100
         default: return 0
         }
     }
@@ -434,8 +451,8 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             case 0: return rotorOptions[0][row]
             default: return rotorOptions[1][row]
             }
-        case ringSettings: return pins[row]
-        case rotorWindows: return letters[row]
+        case ringSettings: return pins[row % 26]
+        case rotorWindows: return letters[row % 26]
         default: return "error"
         }
     }
@@ -455,13 +472,13 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         rotorSelection.selectRow(1, inComponent: 2, animated: false)
         rotorSelection.selectRow(2, inComponent: 3, animated: false)
         
-        ringSettings.selectRow(25, inComponent: 0, animated: false)
-        ringSettings.selectRow(25, inComponent: 1, animated: false)
-        ringSettings.selectRow(25, inComponent: 2, animated: false)
+        ringSettings.selectRow(1299, inComponent: 0, animated: false)
+        ringSettings.selectRow(1299, inComponent: 1, animated: false)
+        ringSettings.selectRow(1299, inComponent: 2, animated: false)
         
-        rotorWindows.selectRow(25, inComponent: 0, animated: false)
-        rotorWindows.selectRow(25, inComponent: 1, animated: false)
-        rotorWindows.selectRow(25, inComponent: 2, animated: false)
+        rotorWindows.selectRow(1299, inComponent: 0, animated: false)
+        rotorWindows.selectRow(1299, inComponent: 1, animated: false)
+        rotorWindows.selectRow(1299, inComponent: 2, animated: false)
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardChanged:", name: UIKeyboardWillChangeFrameNotification, object: nil) // Call the function keyboardChanged() if the keyboard appears or disappears.
         
@@ -548,15 +565,15 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             
             // Setting rotor pins.
             
-            codeViewController.enigma.ringLeft = letterReverser[ringSettings.selectedRowInComponent(0)]
-            codeViewController.enigma.ringCentre = letterReverser[ringSettings.selectedRowInComponent(1)]
-            codeViewController.enigma.ringRight = letterReverser[ringSettings.selectedRowInComponent(2)]
+            codeViewController.enigma.ringLeft = letterReverser[ringSettings.selectedRowInComponent(0) % 26]
+            codeViewController.enigma.ringCentre = letterReverser[ringSettings.selectedRowInComponent(1) % 26]
+            codeViewController.enigma.ringRight = letterReverser[ringSettings.selectedRowInComponent(2) % 26]
             
             // Setting rotor offset.
             
-            codeViewController.enigma.rotorOffsetLeft = letterReverser[rotorWindows.selectedRowInComponent(0)]
-            codeViewController.enigma.rotorOffsetCentre = letterReverser[rotorWindows.selectedRowInComponent(1)]
-            codeViewController.enigma.rotorOffsetRight = letterReverser[rotorWindows.selectedRowInComponent(2)]
+            codeViewController.enigma.rotorOffsetLeft = letterReverser[rotorWindows.selectedRowInComponent(0) % 26]
+            codeViewController.enigma.rotorOffsetCentre = letterReverser[rotorWindows.selectedRowInComponent(1) % 26]
+            codeViewController.enigma.rotorOffsetRight = letterReverser[rotorWindows.selectedRowInComponent(2) % 26]
             
             // Setting plugboard.
             
@@ -609,15 +626,15 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             
             // Setting rotor pins.
             
-            cheatViewController.enigma.ringLeft = letterReverser[ringSettings.selectedRowInComponent(0)]
-            cheatViewController.enigma.ringCentre = letterReverser[ringSettings.selectedRowInComponent(1)]
-            cheatViewController.enigma.ringRight = letterReverser[ringSettings.selectedRowInComponent(2)]
+            cheatViewController.enigma.ringLeft = letterReverser[ringSettings.selectedRowInComponent(0) % 26]
+            cheatViewController.enigma.ringCentre = letterReverser[ringSettings.selectedRowInComponent(1) % 26]
+            cheatViewController.enigma.ringRight = letterReverser[ringSettings.selectedRowInComponent(2) % 26]
             
             // Setting rotor offset.
             
-            cheatViewController.enigma.rotorOffsetLeft = letterReverser[rotorWindows.selectedRowInComponent(0)]
-            cheatViewController.enigma.rotorOffsetCentre = letterReverser[rotorWindows.selectedRowInComponent(1)]
-            cheatViewController.enigma.rotorOffsetRight = letterReverser[rotorWindows.selectedRowInComponent(2)]
+            cheatViewController.enigma.rotorOffsetLeft = letterReverser[rotorWindows.selectedRowInComponent(0) % 26]
+            cheatViewController.enigma.rotorOffsetCentre = letterReverser[rotorWindows.selectedRowInComponent(1) % 26]
+            cheatViewController.enigma.rotorOffsetRight = letterReverser[rotorWindows.selectedRowInComponent(2) % 26]
             
             // Setting plugboard.
             

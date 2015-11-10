@@ -23,11 +23,11 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     let letters = ["Z", "Y", "X", "W", "V", "U", "T", "S", "R", "Q", "P", "O", "N", "M", "L", "K", "J", "I", "H", "G", "F", "E", "D", "C", "B", "A"]
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return letters.count
+        return letters.count * 100
     }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return letters[row]
+        return letters[row % 26]
     }
 
     @IBOutlet weak var textField: UITextField!

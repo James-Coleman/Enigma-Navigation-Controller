@@ -174,34 +174,52 @@ class EnigmaModel: NSObject {
         default: break
         }
         
-        if difference < 0 {
-            difference += 26
+        if difference > 0 {
+            switch component {
+            case 0:
+                for _ in 1...difference {
+                    advanceRotor(&left)
+                }
+            case 1:
+                for _ in 1...difference {
+                    advanceRotor(&centre)
+                }
+            case 2:
+                for _ in 1...difference {
+                    advanceRotor(&right)
+                }
+            default: break
+            }
+        } else if difference < 0 {
+            let absoluteDifference = abs(difference)
+            switch component {
+            case 0:
+                for _ in 1...absoluteDifference {
+                    stepRotor(&left)
+                }
+            case 1:
+                for _ in 1...absoluteDifference {
+                    stepRotor(&centre)
+                }
+            case 2:
+                for _ in 1...absoluteDifference {
+                    stepRotor(&right)
+                }
+            default: break
+            }
         }
         
         switch component {
         case 0:
-            if difference > 0 {
-                for _ in 1...difference {
-                    advanceRotor(&right)
-                    advanceWindow(&windowLeft)
-                }
-            }
+            windowLeft = row
         case 1:
-            if difference > 0 {
-                for _ in 1...difference {
-                    advanceRotor(&centre)
-                    advanceWindow(&windowCentre)
-                }
-            }
+            windowCentre = row
         case 2:
-            if difference > 0 {
-                for _ in 1...difference {
-                    advanceRotor(&right)
-                    advanceWindow(&windowRight)
-                }
-            }
+            windowRight = row
         default: break
         }
+        
+        print(row, component, difference)
     }
     
     // MARK: Encoding.
@@ -288,13 +306,14 @@ class EnigmaModel: NSObject {
             doubleStep = false
             hasSteppedBack = false
         }
-        if windowRight == right.step {
+        if windowRight % 26 == right.step {
             advanceRotor(&centre)
             advanceWindow(&windowCentre)
         }
-        if windowCentre == centre.step + 1 {
+        if windowCentre % 26 == centre.step + 1 {
             doubleStep = true
         }
+        print(windowLeft, windowCentre, windowRight)
         return plugboard(reversedRightRotor(reversedCentreRotor(reversedLeftRotor(reflector(leftRotor(centreRotor(rightRotor(plugboard("\(letter)")))))))))
     }
     
