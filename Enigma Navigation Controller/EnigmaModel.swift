@@ -311,7 +311,6 @@ class EnigmaModel: NSObject {
         if windowCentre % 26 == centre.step + 1 {
             doubleStep = true
         }
-//        print(windowLeft, windowCentre, windowRight)
         return plugboard(reversedRightRotor(reversedCentreRotor(reversedLeftRotor(reflector(leftRotor(centreRotor(rightRotor(plugboard("\(letter)")))))))))
     }
     
@@ -326,21 +325,21 @@ class EnigmaModel: NSObject {
             if newCount < textFieldCountBefore {
                 output.text? = (output.text?.substringToIndex((output.text?.endIndex.predecessor())!))! // Force unwrap all the things.
                 if lastLetterEntered != " " {
-                    if windowCentre == centre.step && windowRight == right.step - 1 {
+                    if windowCentre % 26 == centre.step && windowRight % 26 == right.step - 1 {
                         stepRotor(&centre)
-                        reverseWindow(&windowCentre)
+                        windowCentre++
                         stepRotor(&left)
-                        reverseWindow(&windowLeft)
+                        windowLeft++
                         hasSteppedBack = true
                     } else {
                         hasSteppedBack = false
                     }
-                    if windowRight == right.step {
+                    if windowRight % 26 == right.step {
                         stepRotor(&centre)
-                        reverseWindow(&windowCentre)
+                        windowCentre++
                     }
                     stepRotor(&right)
-                    reverseWindow(&windowRight)
+                    windowRight++
                 }
                 if let lastLetter = sender.text?.characters.last {
                     lastLetterEntered = lastLetter
