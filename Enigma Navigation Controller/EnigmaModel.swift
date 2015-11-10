@@ -218,8 +218,6 @@ class EnigmaModel: NSObject {
             windowRight = row
         default: break
         }
-        
-        print(row, component, difference)
     }
     
     // MARK: Encoding.
@@ -313,7 +311,7 @@ class EnigmaModel: NSObject {
         if windowCentre % 26 == centre.step + 1 {
             doubleStep = true
         }
-        print(windowLeft, windowCentre, windowRight)
+//        print(windowLeft, windowCentre, windowRight)
         return plugboard(reversedRightRotor(reversedCentreRotor(reversedLeftRotor(reflector(leftRotor(centreRotor(rightRotor(plugboard("\(letter)")))))))))
     }
     
