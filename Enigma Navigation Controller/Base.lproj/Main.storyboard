@@ -4,6 +4,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Setup-->
         <scene sceneID="tne-QT-ifu">
@@ -43,7 +48,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuW-30-Mvz">
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -478,6 +483,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="gdh-Bc-AVk"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="Authentic"/>
                                 <connections>
                                     <segue destination="h4n-EE-KrR" kind="show" identifier="BeginCoding" id="hJs-Gk-nyO"/>

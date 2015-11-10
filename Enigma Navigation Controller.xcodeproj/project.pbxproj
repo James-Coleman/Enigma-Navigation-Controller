@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0985DF1BF259B900BFBDA6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E0985DE1BF259B900BFBDA6 /* Montserrat-Regular.ttf */; };
 		1E508E831BB14806007921E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E821BB14806007921E1 /* AppDelegate.swift */; };
 		1E508E851BB14806007921E1 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E841BB14806007921E1 /* SetupViewController.swift */; };
 		1E508E881BB14806007921E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E861BB14806007921E1 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0985DE1BF259B900BFBDA6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		1E508E7F1BB14806007921E1 /* Enigma Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enigma Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E508E821BB14806007921E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E508E841BB14806007921E1 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 		1E508E811BB14806007921E1 /* Enigma Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1E0985DE1BF259B900BFBDA6 /* Montserrat-Regular.ttf */,
 				1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */,
 				1E508E821BB14806007921E1 /* AppDelegate.swift */,
 				1E508E841BB14806007921E1 /* SetupViewController.swift */,
@@ -130,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0985DF1BF259B900BFBDA6 /* Montserrat-Regular.ttf in Resources */,
 				1E508E8D1BB14806007921E1 /* LaunchScreen.storyboard in Resources */,
 				1E508E8A1BB14806007921E1 /* Assets.xcassets in Resources */,
 				1E508E881BB14806007921E1 /* Main.storyboard in Resources */,
