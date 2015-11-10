@@ -12,9 +12,9 @@
 		1E508E881BB14806007921E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E861BB14806007921E1 /* Main.storyboard */; };
 		1E508E8A1BB14806007921E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E891BB14806007921E1 /* Assets.xcassets */; };
 		1E508E8D1BB14806007921E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E8B1BB14806007921E1 /* LaunchScreen.storyboard */; };
-		1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E941BB154A1007921E1 /* CodeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		1E5900F71BB2B25300A3FE8C /* CheatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		1E5900F91BB41E5200A3FE8C /* EnigmaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */; settings = {ASSET_TAGS = (); }; };
+		1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E941BB154A1007921E1 /* CodeViewController.swift */; };
+		1E5900F71BB2B25300A3FE8C /* CheatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */; };
+		1E5900F91BB41E5200A3FE8C /* EnigmaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
