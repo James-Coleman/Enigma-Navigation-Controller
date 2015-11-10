@@ -286,6 +286,12 @@ class EnigmaModel: NSObject {
             advanceRotor(&left)
             advanceWindow(&windowLeft)
             doubleStep = false
+        } else if doubleStep {
+            advanceRotor(&centre)
+            advanceWindow(&windowCentre)
+            advanceRotor(&left)
+            advanceWindow(&windowLeft)
+            doubleStep = false
         }
         if windowRight == right.step {
             advanceRotor(&centre)
@@ -293,6 +299,7 @@ class EnigmaModel: NSObject {
         }
         if windowCentre == centre.step + 1 {
             doubleStep = true
+            print("Should doublestep")
         }
         return plugboard(reversedRightRotor(reversedCentreRotor(reversedLeftRotor(reflector(leftRotor(centreRotor(rightRotor(plugboard("\(letter)")))))))))
     }
