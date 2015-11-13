@@ -1,11 +1,116 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X6w-d6-pmW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X6w-d6-pmW">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
             <string>Montserrat-Regular</string>
         </mutableArray>
     </customFonts>
@@ -22,21 +127,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qCH-XC-kZL" userLabel="Chosen Rotors">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H0z-ee-LMd">
+                                <rect key="frame" x="20" y="175" width="728" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="0d7-fF-kPq"/>
+                                    <constraint firstAttribute="width" constant="728" id="occ-cA-L9M"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhf-dm-bJl">
+                                <rect key="frame" x="20" y="426" width="728" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="H4s-ki-Sm4"/>
+                                    <constraint firstAttribute="width" constant="728" id="eiX-ce-w6T"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upd-lY-kK5">
+                                <rect key="frame" x="20" y="677" width="728" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="r5J-Py-Ol8"/>
+                                    <constraint firstAttribute="width" constant="728" id="uOi-ws-2kT"/>
+                                </constraints>
+                            </view>
+                            <pickerView contentMode="scaleToFill" showsSelectionIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCH-XC-kZL" userLabel="Chosen Rotors">
                                 <rect key="frame" x="20" y="72" width="728" height="243"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="iD1-sC-hCj"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="yhw-zC-Tbp"/>
                                 </connections>
                             </pickerView>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nqL-cq-7JV" userLabel="Ring Settings">
+                            <pickerView contentMode="scaleToFill" showsSelectionIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqL-cq-7JV" userLabel="Ring Settings">
                                 <rect key="frame" x="20" y="323" width="728" height="242"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="HC5-TU-BcM"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="eNs-SQ-6hu"/>
                                 </connections>
                             </pickerView>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ph-Ul-cAA" userLabel="Rotor Windows">
+                            <pickerView contentMode="scaleToFill" showsSelectionIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ph-Ul-cAA" userLabel="Rotor Windows">
                                 <rect key="frame" x="20" y="573" width="728" height="243"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="DDW-hT-wik"/>
@@ -48,13 +177,14 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuW-30-Mvz">
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AgX-z4-UfY" userLabel="Q Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AgX-z4-UfY" userLabel="Q Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="40" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldQ:" destination="BYZ-38-t0r" eventType="editingChanged" id="mQ4-CP-t6X"/>
@@ -62,13 +192,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvd-4I-iDc">
                                         <rect key="frame" x="81" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5av-kg-Lo7" userLabel="W Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5av-kg-Lo7" userLabel="W Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="121" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldW:" destination="BYZ-38-t0r" eventType="editingChanged" id="RIj-bq-DHD"/>
@@ -76,13 +207,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Oo-Eg-tPS">
                                         <rect key="frame" x="162" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nec-WP-UPU" userLabel="E Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nec-WP-UPU" userLabel="E Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="202" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldE:" destination="BYZ-38-t0r" eventType="editingChanged" id="I4k-y7-1ej"/>
@@ -90,13 +222,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rdq-Hg-q8y">
                                         <rect key="frame" x="243" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ycI-0t-b7Z" userLabel="R Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ycI-0t-b7Z" userLabel="R Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="283" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldR:" destination="BYZ-38-t0r" eventType="editingChanged" id="xFt-cc-vJ7"/>
@@ -104,13 +237,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEc-6c-Yie">
                                         <rect key="frame" x="324" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2wJ-EG-qEM" userLabel="T Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2wJ-EG-qEM" userLabel="T Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="364" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldT:" destination="BYZ-38-t0r" eventType="editingChanged" id="geB-9B-nG1"/>
@@ -118,13 +252,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Z" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qy-X9-NX2">
                                         <rect key="frame" x="404" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Egu-8P-ddh" userLabel="Z Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Egu-8P-ddh" userLabel="Z Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="445" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldZ:" destination="BYZ-38-t0r" eventType="editingChanged" id="x3m-ay-iT7"/>
@@ -132,13 +267,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQf-gh-2Gu">
                                         <rect key="frame" x="485" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XnT-HT-K6v" userLabel="U Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XnT-HT-K6v" userLabel="U Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="526" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldU:" destination="BYZ-38-t0r" eventType="editingChanged" id="ZBb-vr-3aG"/>
@@ -146,13 +282,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUn-tr-Fan">
                                         <rect key="frame" x="566" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wHU-GJ-4IV" userLabel="I Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wHU-GJ-4IV" userLabel="I Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="607" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldI:" destination="BYZ-38-t0r" eventType="editingChanged" id="YWI-Gz-c5b"/>
@@ -160,13 +297,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TgB-w4-CuJ">
                                         <rect key="frame" x="647" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cWP-vE-lWt" userLabel="O Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cWP-vE-lWt" userLabel="O Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="688" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldO:" destination="BYZ-38-t0r" eventType="editingChanged" id="JyS-NG-c26"/>
@@ -198,13 +336,14 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivh-G1-RRV">
                                         <rect key="frame" x="0.0" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qqm-1u-gah" userLabel="A Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qqm-1u-gah" userLabel="A Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="41" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldA:" destination="BYZ-38-t0r" eventType="editingChanged" id="7lH-7f-CwW"/>
@@ -212,13 +351,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zd4-Ge-Ur0">
                                         <rect key="frame" x="81" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEQ-JB-pjA" userLabel="S Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEQ-JB-pjA" userLabel="S Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="122" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldS:" destination="BYZ-38-t0r" eventType="editingChanged" id="mog-nZ-hkx"/>
@@ -226,13 +366,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeX-8m-Mh8">
                                         <rect key="frame" x="162" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s8n-S3-RyB" userLabel="D Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s8n-S3-RyB" userLabel="D Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="203" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldD:" destination="BYZ-38-t0r" eventType="editingChanged" id="fSS-YY-yMS"/>
@@ -240,13 +381,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjU-C7-mkB">
                                         <rect key="frame" x="243" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="faO-OF-KLL" userLabel="F Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="faO-OF-KLL" userLabel="F Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="284" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldF:" destination="BYZ-38-t0r" eventType="editingChanged" id="PcE-3R-wHP"/>
@@ -254,13 +396,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O17-5g-i4i">
                                         <rect key="frame" x="324" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gy6-2k-3eA" userLabel="G Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gy6-2k-3eA" userLabel="G Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="365" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldG:" destination="BYZ-38-t0r" eventType="editingChanged" id="fan-qb-dRw"/>
@@ -268,13 +411,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TS3-tO-YbR">
                                         <rect key="frame" x="405" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KJH-95-idO" userLabel="H Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KJH-95-idO" userLabel="H Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="446" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldH:" destination="BYZ-38-t0r" eventType="editingChanged" id="ODA-yc-9i4"/>
@@ -282,13 +426,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCv-BY-Wyk">
                                         <rect key="frame" x="486" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xY-iC-1Y4" userLabel="J Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xY-iC-1Y4" userLabel="J Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="527" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldJ:" destination="BYZ-38-t0r" eventType="editingChanged" id="4gJ-ri-m1h"/>
@@ -296,13 +441,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNY-me-KBe">
                                         <rect key="frame" x="567" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tAb-t8-OaJ" userLabel="K Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tAb-t8-OaJ" userLabel="K Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="608" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldK:" destination="BYZ-38-t0r" eventType="editingChanged" id="EYE-Ke-DZ7"/>
@@ -332,13 +478,14 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVA-0L-enl">
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oIg-Gj-CBJ" userLabel="P Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oIg-Gj-CBJ" userLabel="P Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="40" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldP:" destination="BYZ-38-t0r" eventType="editingChanged" id="IWe-Uy-J8S"/>
@@ -346,13 +493,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Yo-xa-0C3">
                                         <rect key="frame" x="81" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VPY-pA-X7J" userLabel="Y Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VPY-pA-X7J" userLabel="Y Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="121" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldY:" destination="BYZ-38-t0r" eventType="editingChanged" id="IxM-Iz-r2l"/>
@@ -360,13 +508,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Inw-uq-yhl">
                                         <rect key="frame" x="162" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MgI-iD-ilU" userLabel="X Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MgI-iD-ilU" userLabel="X Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="202" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldX:" destination="BYZ-38-t0r" eventType="editingChanged" id="7Pz-f8-Y2d"/>
@@ -374,13 +523,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZo-Za-DpR">
                                         <rect key="frame" x="243" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CsP-Af-1Oi" userLabel="C Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CsP-Af-1Oi" userLabel="C Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="283" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldC:" destination="BYZ-38-t0r" eventType="editingChanged" id="lCt-yx-b8V"/>
@@ -388,13 +538,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RB0-2M-DRL">
                                         <rect key="frame" x="324" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bcl-Xr-6fF" userLabel="V Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bcl-Xr-6fF" userLabel="V Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="364" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldV:" destination="BYZ-38-t0r" eventType="editingChanged" id="ETR-0F-xGI"/>
@@ -402,13 +553,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZdE-7o-yFI">
                                         <rect key="frame" x="404" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jnT-27-QZP" userLabel="B Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jnT-27-QZP" userLabel="B Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="445" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldB:" destination="BYZ-38-t0r" eventType="editingChanged" id="hPu-Nk-RYq"/>
@@ -416,13 +568,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAH-SO-TH9">
                                         <rect key="frame" x="485" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hPq-Ps-61v" userLabel="N Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hPq-Ps-61v" userLabel="N Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="526" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldN:" destination="BYZ-38-t0r" eventType="editingChanged" id="OqR-C4-eEz"/>
@@ -430,13 +583,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brj-Pc-kJE">
                                         <rect key="frame" x="566" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mjz-GW-ETZ" userLabel="M Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mjz-GW-ETZ" userLabel="M Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="607" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldM:" destination="BYZ-38-t0r" eventType="editingChanged" id="woh-On-XLa"/>
@@ -444,13 +598,14 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ovc-w8-3X2">
                                         <rect key="frame" x="647" y="0.0" width="41" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E6I-7Y-I7R" userLabel="L Text Field">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E6I-7Y-I7R" userLabel="L Text Field" customClass="Plugboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="688" y="0.0" width="40" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
                                         <connections>
                                             <action selector="textFieldL:" destination="BYZ-38-t0r" eventType="editingChanged" id="jNa-3v-aq0"/>
@@ -483,8 +638,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="gdh-Bc-AVk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                <state key="normal" title="Authentic"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                                <state key="normal" title="Authentic">
+                                    <color key="titleColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="h4n-EE-KrR" kind="show" identifier="BeginCoding" id="hJs-Gk-nyO"/>
                                 </connections>
@@ -494,19 +651,23 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="eOR-PI-Gqg"/>
                                 </constraints>
-                                <state key="normal" title="Cheat"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                                <state key="normal" title="Cheat">
+                                    <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="u0C-3y-Xw8" kind="show" identifier="BeginCheating" id="Ehq-3Y-2Bk"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Zkm-Wc-ahP" firstAttribute="top" secondItem="DpC-Al-CNK" secondAttribute="bottom" id="2O6-Hu-2pi"/>
                             <constraint firstItem="9ph-Ul-cAA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="73w-P4-RL9"/>
                             <constraint firstItem="qCH-XC-kZL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8mV-9h-2OD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Zkm-Wc-ahP" secondAttribute="trailing" id="989-du-gCw"/>
                             <constraint firstItem="9ph-Ul-cAA" firstAttribute="height" secondItem="qCH-XC-kZL" secondAttribute="height" id="9WU-LR-50Y"/>
+                            <constraint firstItem="nqL-cq-7JV" firstAttribute="centerY" secondItem="zhf-dm-bJl" secondAttribute="centerY" id="Crm-Dd-R9Y"/>
                             <constraint firstItem="DpC-Al-CNK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="JZi-RN-n76"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WId-6A-ayA" secondAttribute="trailing" id="K2X-0Y-jpO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DpC-Al-CNK" secondAttribute="trailing" constant="40" id="KZV-iB-E2V"/>
@@ -516,14 +677,19 @@
                             <constraint firstAttribute="trailingMargin" secondItem="mqZ-2m-BfD" secondAttribute="trailing" id="T3d-hB-g0a"/>
                             <constraint firstItem="WId-6A-ayA" firstAttribute="width" secondItem="12G-oW-IQV" secondAttribute="width" id="TRr-Ax-Pbt"/>
                             <constraint firstItem="Zkm-Wc-ahP" firstAttribute="height" secondItem="mqZ-2m-BfD" secondAttribute="height" id="VFR-2V-c5h"/>
+                            <constraint firstItem="H0z-ee-LMd" firstAttribute="centerX" secondItem="qCH-XC-kZL" secondAttribute="centerX" id="W2P-LF-Pue"/>
                             <constraint firstItem="9ph-Ul-cAA" firstAttribute="height" secondItem="qCH-XC-kZL" secondAttribute="height" id="Zsu-4C-ReI"/>
                             <constraint firstItem="nqL-cq-7JV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="c8a-SY-Nar"/>
                             <constraint firstItem="12G-oW-IQV" firstAttribute="top" secondItem="Zkm-Wc-ahP" secondAttribute="bottom" id="e85-Sq-DcD"/>
                             <constraint firstItem="mqZ-2m-BfD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eB9-FK-ysm"/>
                             <constraint firstItem="qCH-XC-kZL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fv2-XO-axi"/>
+                            <constraint firstItem="Upd-lY-kK5" firstAttribute="centerY" secondItem="9ph-Ul-cAA" secondAttribute="centerY" id="gGV-MT-3Oj"/>
                             <constraint firstItem="9ph-Ul-cAA" firstAttribute="top" secondItem="nqL-cq-7JV" secondAttribute="bottom" constant="8" id="hgk-0H-BOA"/>
                             <constraint firstItem="nqL-cq-7JV" firstAttribute="height" secondItem="qCH-XC-kZL" secondAttribute="height" id="im1-5D-3fw"/>
+                            <constraint firstItem="Upd-lY-kK5" firstAttribute="centerX" secondItem="9ph-Ul-cAA" secondAttribute="centerX" id="lHv-FY-Z4L"/>
                             <constraint firstItem="DpC-Al-CNK" firstAttribute="top" secondItem="mqZ-2m-BfD" secondAttribute="bottom" id="mZI-NQ-9TY"/>
+                            <constraint firstItem="H0z-ee-LMd" firstAttribute="centerY" secondItem="qCH-XC-kZL" secondAttribute="centerY" id="oDj-Wv-9E0"/>
+                            <constraint firstItem="nqL-cq-7JV" firstAttribute="centerX" secondItem="zhf-dm-bJl" secondAttribute="centerX" id="pJU-6j-rvE"/>
                             <constraint firstItem="Zkm-Wc-ahP" firstAttribute="top" secondItem="DpC-Al-CNK" secondAttribute="bottom" id="qD0-Ls-Idz"/>
                             <constraint firstItem="12G-oW-IQV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qM2-2M-kY7"/>
                             <constraint firstItem="mqZ-2m-BfD" firstAttribute="top" secondItem="9ph-Ul-cAA" secondAttribute="bottom" constant="8" id="wlE-wg-vmb"/>
@@ -595,76 +761,91 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tTz-Cf-0Aa" userLabel="History Switch">
-                                <rect key="frame" x="699" y="484" width="51" height="31"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K6k-eV-bxm" customClass="SevenSwitch" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
+                                <rect key="frame" x="699" y="484" width="49" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="VM6-1x-g9G"/>
+                                    <constraint firstAttribute="height" constant="31" id="fSa-o5-Edc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isRounded" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
+                                        <color key="value" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="onTintColor">
+                                        <color key="value" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
+                                        <color key="value" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="historyVisibility:" destination="h4n-EE-KrR" eventType="valueChanged" id="Fgb-Su-afL"/>
+                                    <action selector="historyVisible:" destination="h4n-EE-KrR" eventType="valueChanged" id="pht-rY-NZ3"/>
                                 </connections>
-                            </switch>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pro-gl-Udk">
+                                <rect key="frame" x="20" y="544" width="728" height="240"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1j1-Ji-TyN" userLabel="Top lights">
                                 <rect key="frame" x="20" y="544" width="728" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wv-oJ-Ebw">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wv-oJ-Ebw" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phb-3W-h6g">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Phb-3W-h6g" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="81" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZv-42-6qH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZv-42-6qH" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="162" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ai6-JS-TTB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ai6-JS-TTB" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="243" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ix9-CD-3eS">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ix9-CD-3eS" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="324" y="0.0" width="80" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Z" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3m-B2-ea7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Z" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3m-B2-ea7" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="404" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjr-OZ-Ga6">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjr-OZ-Ga6" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="485" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQ1-C6-NI3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQ1-C6-NI3" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="566" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkc-Xz-8wV">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gkc-Xz-8wV" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="647" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313725490196" green="0.40784313725490196" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -683,60 +864,52 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Di5-bO-UOy" userLabel="Middle lights">
                                 <rect key="frame" x="60" y="624" width="648" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DN-BV-Cpy">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DN-BV-Cpy" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3X3-Dr-CDl">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3X3-Dr-CDl" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="81" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2em-QF-p1T">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2em-QF-p1T" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="162" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXa-yG-1p4">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXa-yG-1p4" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="243" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxc-af-74f">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxc-af-74f" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="324" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpC-1y-E8F">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpC-1y-E8F" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="405" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0i5-PP-7vv">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0i5-PP-7vv" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="486" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCN-2t-paa">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCN-2t-paa" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="567" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -754,67 +927,58 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Q4-Wn-h12" userLabel="Bottom lights">
                                 <rect key="frame" x="20" y="704" width="728" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7b3-pt-SpB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7b3-pt-SpB" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RV-f2-WW9">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RV-f2-WW9" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="81" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auj-2x-Ma6">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auj-2x-Ma6" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="162" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jb0-cG-Wh7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jb0-cG-Wh7" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="243" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDh-uA-Tgk">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDh-uA-Tgk" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="324" y="0.0" width="80" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5h-RC-qAO">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5h-RC-qAO" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="404" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fW-oK-Xf3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fW-oK-Xf3" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="485" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toD-rh-bgx">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toD-rh-bgx" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="566" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caS-nr-k9y">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caS-nr-k9y" customClass="Lightboard" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="647" y="0.0" width="81" height="80"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -833,73 +997,103 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lf3-aS-Fbz" userLabel="Top keys">
                                 <rect key="frame" x="20" y="784" width="728" height="80"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64u-AB-Ag5">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64u-AB-Ag5" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="Q"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="Q">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="13I-8Y-JYA"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="pxI-GZ-fsD"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzF-8f-d0x">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzF-8f-d0x" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="81" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="W"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="W">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="eE0-Jk-CPc"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="h69-oO-7ea"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="567-2G-KM2">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="567-2G-KM2" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="162" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="E"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="E">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="54C-XX-YjK"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="SeM-V6-I7J"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n42-Zy-3ZZ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n42-Zy-3ZZ" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="243" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="R"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="R">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="rJX-GE-r9S"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="dJA-Mk-qBN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCs-7P-EXi">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCs-7P-EXi" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="324" y="0.0" width="80" height="80"/>
-                                        <state key="normal" title="T"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="T">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="lcc-X8-Pgw"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="enK-7Q-7gg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfQ-Pq-fZw">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfQ-Pq-fZw" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="404" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="Z"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="Z">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="LlI-Fy-7a4"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="2ju-Xr-zED"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlT-7p-odn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlT-7p-odn" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="485" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="U"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="U">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="Fkp-zn-cw3"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="8XV-rO-CVN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5z-Hy-R8r">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5z-Hy-R8r" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="566" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="I"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="I">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="rwe-3X-VCJ"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="TkH-1e-5Fa"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKn-kT-pSB">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKn-kT-pSB" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="647" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="O"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="O">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="T5j-Oo-nSf"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="zuH-Af-rz6"/>
@@ -920,65 +1114,89 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YmN-HQ-xYT" userLabel="Middle keys">
                                 <rect key="frame" x="60" y="864" width="648" height="80"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o62-75-UnO">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o62-75-UnO" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="A"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="A">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="syO-lX-P9n"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="dhh-Ux-i8S"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frJ-0U-Aok">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frJ-0U-Aok" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="81" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="S"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="S">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="Tzi-8a-25v"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="ZcM-Gh-Sd9"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uO-5b-qpf">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uO-5b-qpf" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="162" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="D"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="D">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="PZy-QM-OZN"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="49a-37-I47"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EE9-pF-cec">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EE9-pF-cec" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="243" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="F"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="F">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="JRM-FD-vCa"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="Dcz-WK-ZLn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trV-RU-Y2k">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trV-RU-Y2k" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="324" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="G"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="G">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="a2J-br-0MA"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="3MI-me-Fl3"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18t-Ea-6ZC">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18t-Ea-6ZC" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="405" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="H"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="H">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="Yld-83-UDs"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="VNz-yV-Ufc"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncb-h7-8JY">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncb-h7-8JY" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="486" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="J"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="J">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="pFc-oN-4Za"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="X2N-ii-1aa"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxL-8C-1xa">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxL-8C-1xa" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="567" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="K"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="K">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="G6I-T7-yXc"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="9cf-3O-mG3"/>
@@ -998,73 +1216,100 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVQ-Gv-wyg" userLabel="Bottom keys">
                                 <rect key="frame" x="20" y="944" width="728" height="80"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1V-Yl-0ik">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1V-Yl-0ik" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="P"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="P">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="scQ-Vy-mju"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="jXD-tk-HYS"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1e-cV-kKR">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1e-cV-kKR" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="81" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="Y"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="Y">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="KTH-Rx-pM3"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="uJt-sk-wcw"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJ5-6e-Jth">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJ5-6e-Jth" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="162" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="X"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="X">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="3Jd-wX-ZIu"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="Tta-1c-0dF"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0J-s7-FoA">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0J-s7-FoA" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="243" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="C"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="C">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="l5u-I5-hh1"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="xtz-oi-Clh"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgu-S8-bOQ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgu-S8-bOQ" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="324" y="0.0" width="80" height="80"/>
-                                        <state key="normal" title="V"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="V">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="hqo-6r-4V2"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="d38-EP-Aab"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKw-Fs-SHc">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKw-Fs-SHc" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="404" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="B"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="B">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="BCh-et-acd"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="JnE-mI-8Hw"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Onl-0Y-FgQ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Onl-0Y-FgQ" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="485" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="N"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="N">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="di7-C6-ZwI"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="OZe-oc-bFl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rD3-Vx-mmy">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rD3-Vx-mmy" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="566" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="M"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="M">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="VUQ-YO-j55"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="fhw-Pe-M1l"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hlw-jV-1vm">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hlw-jV-1vm" customClass="KeyButton" customModule="Enigma_Navigation_Controller" customModuleProvider="target">
                                         <rect key="frame" x="647" y="0.0" width="81" height="80"/>
-                                        <state key="normal" title="L"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="L">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="button:" destination="h4n-EE-KrR" eventType="touchDown" id="kxk-8E-CXE"/>
                                             <action selector="buttonRelease:" destination="h4n-EE-KrR" eventType="touchUpInside" id="PqH-46-KcF"/>
@@ -1083,6 +1328,10 @@
                                     <constraint firstItem="Mgu-S8-bOQ" firstAttribute="width" secondItem="z1V-Yl-0ik" secondAttribute="width" id="sOV-wt-TcQ"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dkr-hd-7Xv">
+                                <rect key="frame" x="20" y="241" width="728" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j1b-qh-6Ne" userLabel="Rotor Windows">
                                 <rect key="frame" x="20" y="64" width="728" height="390"/>
                                 <connections>
@@ -1091,31 +1340,37 @@
                                 </connections>
                             </pickerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Di5-bO-UOy" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" constant="40" id="2Wl-8R-Mqd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1j1-Ji-TyN" secondAttribute="trailing" id="3A8-Fj-FRH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Di5-bO-UOy" secondAttribute="trailing" constant="40" id="3RQ-Ls-clw"/>
                             <constraint firstItem="lf3-aS-Fbz" firstAttribute="top" secondItem="6Q4-Wn-h12" secondAttribute="bottom" id="4m2-D1-bgH"/>
-                            <constraint firstItem="tTz-Cf-0Aa" firstAttribute="centerY" secondItem="y7j-vZ-DyF" secondAttribute="centerY" id="5jM-ef-1MQ"/>
+                            <constraint firstItem="Pro-gl-Udk" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" id="57s-1F-Old"/>
+                            <constraint firstItem="dkr-hd-7Xv" firstAttribute="top" secondItem="1E7-1j-S0j" secondAttribute="bottom" constant="177" id="95a-nh-aXK"/>
+                            <constraint firstItem="dkr-hd-7Xv" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" id="Cgf-Rq-BjB"/>
                             <constraint firstItem="6Q4-Wn-h12" firstAttribute="top" secondItem="Di5-bO-UOy" secondAttribute="bottom" id="E9K-84-SOL"/>
-                            <constraint firstItem="tTz-Cf-0Aa" firstAttribute="leading" secondItem="y7j-vZ-DyF" secondAttribute="trailing" constant="10" id="FY6-B9-Dn8"/>
+                            <constraint firstItem="Pro-gl-Udk" firstAttribute="top" secondItem="y7j-vZ-DyF" secondAttribute="bottom" id="FNx-s2-QRA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K6k-eV-bxm" secondAttribute="trailing" id="GWw-ZC-Zr4"/>
                             <constraint firstItem="6Q4-Wn-h12" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" id="IrW-dj-h3Z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6Q4-Wn-h12" secondAttribute="trailing" id="J86-jp-ssE"/>
                             <constraint firstItem="YmN-HQ-xYT" firstAttribute="top" secondItem="lf3-aS-Fbz" secondAttribute="bottom" id="JCY-8V-6MK"/>
                             <constraint firstItem="y7j-vZ-DyF" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" id="JFD-rR-Evv"/>
+                            <constraint firstItem="lf3-aS-Fbz" firstAttribute="top" secondItem="Pro-gl-Udk" secondAttribute="bottom" id="LMW-Pr-c6C"/>
                             <constraint firstItem="lf3-aS-Fbz" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" id="Ngb-tf-M0o"/>
                             <constraint firstItem="YmN-HQ-xYT" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" constant="40" id="QU8-jg-2WU"/>
+                            <constraint firstItem="dkr-hd-7Xv" firstAttribute="trailing" secondItem="KHb-Ry-vE0" secondAttribute="trailingMargin" id="QvL-YN-ZqO"/>
                             <constraint firstItem="rVQ-Gv-wyg" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" id="Shz-Km-DsT"/>
                             <constraint firstItem="YmN-HQ-xYT" firstAttribute="top" secondItem="lf3-aS-Fbz" secondAttribute="bottom" id="Uyz-ba-da8"/>
                             <constraint firstItem="rVQ-Gv-wyg" firstAttribute="height" secondItem="lf3-aS-Fbz" secondAttribute="height" id="XY8-RH-NfA"/>
                             <constraint firstItem="y7j-vZ-DyF" firstAttribute="top" secondItem="j1b-qh-6Ne" secondAttribute="bottom" id="clB-ne-Yuj"/>
                             <constraint firstItem="Di5-bO-UOy" firstAttribute="top" secondItem="1j1-Ji-TyN" secondAttribute="bottom" id="clV-Bx-LUv"/>
+                            <constraint firstItem="Pro-gl-Udk" firstAttribute="trailing" secondItem="KHb-Ry-vE0" secondAttribute="trailingMargin" id="dUl-5F-X4f"/>
                             <constraint firstItem="1j1-Ji-TyN" firstAttribute="leading" secondItem="KHb-Ry-vE0" secondAttribute="leadingMargin" id="e1n-i0-PyT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lf3-aS-Fbz" secondAttribute="trailing" id="etw-nw-oXQ"/>
                             <constraint firstItem="j1b-qh-6Ne" firstAttribute="top" secondItem="1E7-1j-S0j" secondAttribute="bottom" id="g1O-qS-5fn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tTz-Cf-0Aa" secondAttribute="trailing" id="gZN-a7-Eti"/>
                             <constraint firstItem="1j1-Ji-TyN" firstAttribute="top" secondItem="y7j-vZ-DyF" secondAttribute="bottom" id="iHI-6o-8um"/>
+                            <constraint firstItem="y7j-vZ-DyF" firstAttribute="top" secondItem="dkr-hd-7Xv" secondAttribute="bottom" constant="177" id="jwD-LN-OW8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="j1b-qh-6Ne" secondAttribute="trailing" id="k0p-aN-8ET"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YmN-HQ-xYT" secondAttribute="trailing" constant="40" id="lVC-L9-cTH"/>
                             <constraint firstItem="rVQ-Gv-wyg" firstAttribute="top" secondItem="YmN-HQ-xYT" secondAttribute="bottom" id="m3R-Na-XWt"/>
@@ -1123,6 +1378,8 @@
                             <constraint firstItem="G1H-Hk-hcG" firstAttribute="top" secondItem="rVQ-Gv-wyg" secondAttribute="bottom" id="nQK-68-bjD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rVQ-Gv-wyg" secondAttribute="trailing" id="nys-ed-v9T"/>
                             <constraint firstItem="YmN-HQ-xYT" firstAttribute="height" secondItem="lf3-aS-Fbz" secondAttribute="height" id="rO7-0M-OTE"/>
+                            <constraint firstItem="K6k-eV-bxm" firstAttribute="leading" secondItem="y7j-vZ-DyF" secondAttribute="trailing" constant="10" id="txh-2e-mAW"/>
+                            <constraint firstItem="K6k-eV-bxm" firstAttribute="centerY" secondItem="y7j-vZ-DyF" secondAttribute="centerY" id="uQ1-hC-e4o"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Authentic" id="zme-Xi-yad"/>
@@ -1155,6 +1412,32 @@
                         <outlet property="xBulb" destination="auj-2x-Ma6" id="S4P-CH-uxl"/>
                         <outlet property="yBulb" destination="9RV-f2-WW9" id="jfj-k1-yeA"/>
                         <outlet property="zBulb" destination="i3m-B2-ea7" id="D3H-Rk-n0Z"/>
+                        <outletCollection property="lightboard" destination="9RV-f2-WW9" collectionClass="NSMutableArray" id="cmc-Zw-6JP"/>
+                        <outletCollection property="lightboard" destination="7b3-pt-SpB" collectionClass="NSMutableArray" id="m4D-X5-bNm"/>
+                        <outletCollection property="lightboard" destination="auj-2x-Ma6" collectionClass="NSMutableArray" id="SN9-FX-gUa"/>
+                        <outletCollection property="lightboard" destination="Jb0-cG-Wh7" collectionClass="NSMutableArray" id="AoX-JI-8Vj"/>
+                        <outletCollection property="lightboard" destination="yDh-uA-Tgk" collectionClass="NSMutableArray" id="6cD-PU-wsM"/>
+                        <outletCollection property="lightboard" destination="W5h-RC-qAO" collectionClass="NSMutableArray" id="3Uv-PA-XgP"/>
+                        <outletCollection property="lightboard" destination="6fW-oK-Xf3" collectionClass="NSMutableArray" id="okw-OP-iPH"/>
+                        <outletCollection property="lightboard" destination="toD-rh-bgx" collectionClass="NSMutableArray" id="3H6-cI-3O1"/>
+                        <outletCollection property="lightboard" destination="caS-nr-k9y" collectionClass="NSMutableArray" id="OFA-xJ-Yku"/>
+                        <outletCollection property="lightboard" destination="FCN-2t-paa" collectionClass="NSMutableArray" id="Veu-3I-GRT"/>
+                        <outletCollection property="lightboard" destination="0i5-PP-7vv" collectionClass="NSMutableArray" id="mQy-aL-IWr"/>
+                        <outletCollection property="lightboard" destination="XpC-1y-E8F" collectionClass="NSMutableArray" id="zHO-Jl-Ei0"/>
+                        <outletCollection property="lightboard" destination="yxc-af-74f" collectionClass="NSMutableArray" id="uXj-73-CW7"/>
+                        <outletCollection property="lightboard" destination="mXa-yG-1p4" collectionClass="NSMutableArray" id="rSl-rN-gwE"/>
+                        <outletCollection property="lightboard" destination="2em-QF-p1T" collectionClass="NSMutableArray" id="NHf-tk-eTR"/>
+                        <outletCollection property="lightboard" destination="3X3-Dr-CDl" collectionClass="NSMutableArray" id="gMY-Ht-jUV"/>
+                        <outletCollection property="lightboard" destination="9DN-BV-Cpy" collectionClass="NSMutableArray" id="abE-y4-AwX"/>
+                        <outletCollection property="lightboard" destination="Gkc-Xz-8wV" collectionClass="NSMutableArray" id="UfQ-0G-zWV"/>
+                        <outletCollection property="lightboard" destination="BQ1-C6-NI3" collectionClass="NSMutableArray" id="wBz-bx-yfD"/>
+                        <outletCollection property="lightboard" destination="Yjr-OZ-Ga6" collectionClass="NSMutableArray" id="ZCZ-SK-23b"/>
+                        <outletCollection property="lightboard" destination="i3m-B2-ea7" collectionClass="NSMutableArray" id="lpg-Ag-vUT"/>
+                        <outletCollection property="lightboard" destination="ix9-CD-3eS" collectionClass="NSMutableArray" id="nDN-hd-VNy"/>
+                        <outletCollection property="lightboard" destination="ai6-JS-TTB" collectionClass="NSMutableArray" id="OKF-Eh-1Oy"/>
+                        <outletCollection property="lightboard" destination="OZv-42-6qH" collectionClass="NSMutableArray" id="h5o-ix-2ae"/>
+                        <outletCollection property="lightboard" destination="Phb-3W-h6g" collectionClass="NSMutableArray" id="vnE-zO-wjD"/>
+                        <outletCollection property="lightboard" destination="4Wv-oJ-Ebw" collectionClass="NSMutableArray" id="kN9-qA-Wcn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tzi-P7-DBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1182,6 +1465,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VVb-WH-pd7">
+                                <rect key="frame" x="20" y="295" width="728" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="728" id="UPP-ky-uT2"/>
+                                    <constraint firstAttribute="height" constant="36" id="qow-iS-wLJ"/>
+                                </constraints>
+                            </view>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gv9-X6-Bdc" userLabel="Rotor Windows">
                                 <rect key="frame" x="20" y="64" width="728" height="497"/>
                                 <connections>
@@ -1213,7 +1504,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="gv9-X6-Bdc" firstAttribute="top" secondItem="yG7-fH-ugo" secondAttribute="bottom" id="3w5-Up-nHY"/>
                             <constraint firstItem="mIG-eQ-hm3" firstAttribute="top" secondItem="BtV-P5-Ngf" secondAttribute="bottom" constant="323" id="Hmw-03-jbK"/>
@@ -1225,6 +1516,8 @@
                             <constraint firstItem="ViT-rl-zFY" firstAttribute="leading" secondItem="G37-FS-sh5" secondAttribute="leadingMargin" id="cRb-RT-yIF"/>
                             <constraint firstItem="gv9-X6-Bdc" firstAttribute="leading" secondItem="G37-FS-sh5" secondAttribute="leadingMargin" id="eBd-M7-j2D"/>
                             <constraint firstItem="BtV-P5-Ngf" firstAttribute="top" secondItem="ViT-rl-zFY" secondAttribute="bottom" constant="10" id="o6o-lK-9zj"/>
+                            <constraint firstItem="VVb-WH-pd7" firstAttribute="centerX" secondItem="gv9-X6-Bdc" secondAttribute="centerX" id="oMp-aR-0ox"/>
+                            <constraint firstItem="VVb-WH-pd7" firstAttribute="centerY" secondItem="gv9-X6-Bdc" secondAttribute="centerY" id="t3u-52-VvC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Cheating" id="OfI-zY-GOF"/>
@@ -1250,6 +1543,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="YnM-OY-igf">
+                        <rect key="frame" x="0.0" y="980" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IcJ-YG-qlB"/>
                     </connections>

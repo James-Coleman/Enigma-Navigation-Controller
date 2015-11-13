@@ -26,8 +26,16 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         return letters.count * 100
     }
     
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return letters[row % 26]
+//    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+//        return letters[row % 26]
+//    }
+    
+    func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView {
+        let pickerLabel = UILabel()
+        let attributedString = NSAttributedString(string: letters[row % 26], attributes: [NSForegroundColorAttributeName : UIColor(white: 74/255, alpha: 1), NSFontAttributeName : UIFont(name: "Montserrat", size: 20)!])
+        pickerLabel.attributedText = attributedString
+        pickerLabel.textAlignment = .Center
+        return pickerLabel
     }
 
     @IBOutlet weak var textField: UITextField!

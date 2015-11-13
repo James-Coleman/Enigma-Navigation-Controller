@@ -26,14 +26,19 @@ class CodeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         return letters.count * 100
     }
     
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return letters[row % 26]
+    func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView {
+        let pickerLabel = UILabel()
+        let attributedString = NSAttributedString(string: letters[row % 26], attributes: [NSForegroundColorAttributeName : UIColor(white: 74/255, alpha: 1), NSFontAttributeName : UIFont(name: "Montserrat", size: 20)!])
+        pickerLabel.attributedText = attributedString
+        pickerLabel.textAlignment = .Center
+        return pickerLabel
     }
     
     // MARK: History visibilty.
     
     @IBOutlet weak var history: UILabel!
-    @IBAction func historyVisibility(sender: UISwitch) {
+    
+    @IBAction func historyVisible(sender: SevenSwitch) {
         history.hidden = !sender.on
     }
 
@@ -63,38 +68,40 @@ class CodeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     
     // MARK: Bulb outlets.
     
-    @IBOutlet weak var qBulb: UILabel!
-    @IBOutlet weak var wBulb: UILabel!
-    @IBOutlet weak var eBulb: UILabel!
-    @IBOutlet weak var rBulb: UILabel!
-    @IBOutlet weak var tBulb: UILabel!
-    @IBOutlet weak var zBulb: UILabel!
-    @IBOutlet weak var uBulb: UILabel!
-    @IBOutlet weak var iBulb: UILabel!
-    @IBOutlet weak var oBulb: UILabel!
+    @IBOutlet weak var qBulb: Lightboard!
+    @IBOutlet weak var wBulb: Lightboard!
+    @IBOutlet weak var eBulb: Lightboard!
+    @IBOutlet weak var rBulb: Lightboard!
+    @IBOutlet weak var tBulb: Lightboard!
+    @IBOutlet weak var zBulb: Lightboard!
+    @IBOutlet weak var uBulb: Lightboard!
+    @IBOutlet weak var iBulb: Lightboard!
+    @IBOutlet weak var oBulb: Lightboard!
     
-    @IBOutlet weak var aBulb: UILabel!
-    @IBOutlet weak var sBulb: UILabel!
-    @IBOutlet weak var dBulb: UILabel!
-    @IBOutlet weak var fBulb: UILabel!
-    @IBOutlet weak var gBulb: UILabel!
-    @IBOutlet weak var hBulb: UILabel!
-    @IBOutlet weak var jBulb: UILabel!
-    @IBOutlet weak var kBulb: UILabel!
+    @IBOutlet weak var aBulb: Lightboard!
+    @IBOutlet weak var sBulb: Lightboard!
+    @IBOutlet weak var dBulb: Lightboard!
+    @IBOutlet weak var fBulb: Lightboard!
+    @IBOutlet weak var gBulb: Lightboard!
+    @IBOutlet weak var hBulb: Lightboard!
+    @IBOutlet weak var jBulb: Lightboard!
+    @IBOutlet weak var kBulb: Lightboard!
     
-    @IBOutlet weak var pBulb: UILabel!
-    @IBOutlet weak var yBulb: UILabel!
-    @IBOutlet weak var xBulb: UILabel!
-    @IBOutlet weak var cBulb: UILabel!
-    @IBOutlet weak var vBulb: UILabel!
-    @IBOutlet weak var bBulb: UILabel!
-    @IBOutlet weak var nBulb: UILabel!
-    @IBOutlet weak var mBulb: UILabel!
-    @IBOutlet weak var lBulb: UILabel!
+    @IBOutlet weak var pBulb: Lightboard!
+    @IBOutlet weak var yBulb: Lightboard!
+    @IBOutlet weak var xBulb: Lightboard!
+    @IBOutlet weak var cBulb: Lightboard!
+    @IBOutlet weak var vBulb: Lightboard!
+    @IBOutlet weak var bBulb: Lightboard!
+    @IBOutlet weak var nBulb: Lightboard!
+    @IBOutlet weak var mBulb: Lightboard!
+    @IBOutlet weak var lBulb: Lightboard!
     
     // MARK: Function.
     
-    @IBAction func button(sender: UIButton) {
+    @IBAction func button(sender: KeyButton) {
+        
+        sender.pressed = true
         
         let coded = enigma.code((sender.titleLabel?.text)!)
         
@@ -103,34 +110,34 @@ class CodeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         rotorWindows.selectRow(enigma.windowRight, inComponent: 2, animated: true)
         
         switch coded {
-        case "Q": qBulb.textColor = UIColor.yellowColor() ; history.text! += "Q"
-        case "W": wBulb.textColor = UIColor.yellowColor() ; history.text! += "W"
-        case "E": eBulb.textColor = UIColor.yellowColor() ; history.text! += "E"
-        case "R": rBulb.textColor = UIColor.yellowColor() ; history.text! += "R"
-        case "T": tBulb.textColor = UIColor.yellowColor() ; history.text! += "T"
-        case "Z": zBulb.textColor = UIColor.yellowColor() ; history.text! += "Z"
-        case "U": uBulb.textColor = UIColor.yellowColor() ; history.text! += "U"
-        case "I": iBulb.textColor = UIColor.yellowColor() ; history.text! += "I"
-        case "O": oBulb.textColor = UIColor.yellowColor() ; history.text! += "O"
+        case "Q": qBulb.lit = true ; history.text! += "Q"
+        case "W": wBulb.lit = true ; history.text! += "W"
+        case "E": eBulb.lit = true ; history.text! += "E"
+        case "R": rBulb.lit = true ; history.text! += "R"
+        case "T": tBulb.lit = true ; history.text! += "T"
+        case "Z": zBulb.lit = true ; history.text! += "Z"
+        case "U": uBulb.lit = true ; history.text! += "U"
+        case "I": iBulb.lit = true ; history.text! += "I"
+        case "O": oBulb.lit = true ; history.text! += "O"
             
-        case "A": aBulb.textColor = UIColor.yellowColor() ; history.text! += "A"
-        case "S": sBulb.textColor = UIColor.yellowColor() ; history.text! += "S"
-        case "D": dBulb.textColor = UIColor.yellowColor() ; history.text! += "D"
-        case "F": fBulb.textColor = UIColor.yellowColor() ; history.text! += "F"
-        case "G": gBulb.textColor = UIColor.yellowColor() ; history.text! += "G"
-        case "H": hBulb.textColor = UIColor.yellowColor() ; history.text! += "H"
-        case "J": jBulb.textColor = UIColor.yellowColor() ; history.text! += "J"
-        case "K": kBulb.textColor = UIColor.yellowColor() ; history.text! += "K"
+        case "A": aBulb.lit = true ; history.text! += "A"
+        case "S": sBulb.lit = true ; history.text! += "S"
+        case "D": dBulb.lit = true ; history.text! += "D"
+        case "F": fBulb.lit = true ; history.text! += "F"
+        case "G": gBulb.lit = true ; history.text! += "G"
+        case "H": hBulb.lit = true ; history.text! += "H"
+        case "J": jBulb.lit = true ; history.text! += "J"
+        case "K": kBulb.lit = true ; history.text! += "K"
             
-        case "P": pBulb.textColor = UIColor.yellowColor() ; history.text! += "P"
-        case "Y": yBulb.textColor = UIColor.yellowColor() ; history.text! += "Y"
-        case "X": xBulb.textColor = UIColor.yellowColor() ; history.text! += "X"
-        case "C": cBulb.textColor = UIColor.yellowColor() ; history.text! += "C"
-        case "V": vBulb.textColor = UIColor.yellowColor() ; history.text! += "V"
-        case "B": bBulb.textColor = UIColor.yellowColor() ; history.text! += "B"
-        case "N": nBulb.textColor = UIColor.yellowColor() ; history.text! += "N"
-        case "M": mBulb.textColor = UIColor.yellowColor() ; history.text! += "M"
-        case "L": lBulb.textColor = UIColor.yellowColor() ; history.text! += "L"
+        case "P": pBulb.lit = true ; history.text! += "P"
+        case "Y": yBulb.lit = true ; history.text! += "Y"
+        case "X": xBulb.lit = true ; history.text! += "X"
+        case "C": cBulb.lit = true ; history.text! += "C"
+        case "V": vBulb.lit = true ; history.text! += "V"
+        case "B": bBulb.lit = true ; history.text! += "B"
+        case "N": nBulb.lit = true ; history.text! += "N"
+        case "M": mBulb.lit = true ; history.text! += "M"
+        case "L": lBulb.lit = true ; history.text! += "L"
         default: break
         }
         
@@ -140,35 +147,15 @@ class CodeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         
     }
     
-    @IBAction func buttonRelease(sender: UIButton) { // Return all bulb to "off" (darkGrayColor).
-        qBulb.textColor = UIColor.darkGrayColor()
-        wBulb.textColor = UIColor.darkGrayColor()
-        eBulb.textColor = UIColor.darkGrayColor()
-        rBulb.textColor = UIColor.darkGrayColor()
-        tBulb.textColor = UIColor.darkGrayColor()
-        zBulb.textColor = UIColor.darkGrayColor()
-        uBulb.textColor = UIColor.darkGrayColor()
-        iBulb.textColor = UIColor.darkGrayColor()
-        oBulb.textColor = UIColor.darkGrayColor()
+    @IBOutlet var lightboard: [Lightboard]!
+    
+    @IBAction func buttonRelease(sender: KeyButton) { // Return all bulb to "off".
         
-        aBulb.textColor = UIColor.darkGrayColor()
-        sBulb.textColor = UIColor.darkGrayColor()
-        dBulb.textColor = UIColor.darkGrayColor()
-        fBulb.textColor = UIColor.darkGrayColor()
-        gBulb.textColor = UIColor.darkGrayColor()
-        hBulb.textColor = UIColor.darkGrayColor()
-        jBulb.textColor = UIColor.darkGrayColor()
-        kBulb.textColor = UIColor.darkGrayColor()
+        sender.pressed = false
         
-        pBulb.textColor = UIColor.darkGrayColor()
-        yBulb.textColor = UIColor.darkGrayColor()
-        xBulb.textColor = UIColor.darkGrayColor()
-        cBulb.textColor = UIColor.darkGrayColor()
-        vBulb.textColor = UIColor.darkGrayColor()
-        bBulb.textColor = UIColor.darkGrayColor()
-        nBulb.textColor = UIColor.darkGrayColor()
-        mBulb.textColor = UIColor.darkGrayColor()
-        lBulb.textColor = UIColor.darkGrayColor()
+        for bulb in lightboard {
+            bulb.lit = false
+        }
     }
     
     // MARK: Update offset when rotors are adjusted inside code mode.

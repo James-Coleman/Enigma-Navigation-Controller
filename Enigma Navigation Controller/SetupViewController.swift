@@ -442,19 +442,29 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         }
     }
     
-    // Title for row.
+    // View for row.
     
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView {
+        
+        let pickerLabel = UILabel()
+        let attributes = [NSForegroundColorAttributeName : UIColor(white: 74/255, alpha: 1), NSFontAttributeName : UIFont(name: "Montserrat", size: 20)!]
+        var attributedString = NSAttributedString()
+        
         switch pickerView {
         case rotorSelection:
             switch component {
-            case 0: return rotorOptions[0][row]
-            default: return rotorOptions[1][row]
+            case 0: attributedString = NSAttributedString(string: rotorOptions[0][row], attributes: attributes)
+            default: attributedString = NSAttributedString(string: rotorOptions[1][row], attributes: attributes)
             }
-        case ringSettings: return pins[row % 26]
-        case rotorWindows: return letters[row % 26]
-        default: return "error"
+        case ringSettings: attributedString = NSAttributedString(string: pins[row % 26], attributes: attributes)
+        case rotorWindows: attributedString = NSAttributedString(string: letters[row % 26], attributes: attributes)
+        default: break
         }
+        
+        pickerLabel.attributedText = attributedString
+        pickerLabel.textAlignment = .Center
+        
+        return pickerLabel
     }
     
     // Finish setting up rotors.
@@ -471,7 +481,7 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         rotorSelection.selectRow(0, inComponent: 1, animated: false)
         rotorSelection.selectRow(1, inComponent: 2, animated: false)
         rotorSelection.selectRow(2, inComponent: 3, animated: false)
-        
+            
         ringSettings.selectRow(1299, inComponent: 0, animated: false)
         ringSettings.selectRow(1299, inComponent: 1, animated: false)
         ringSettings.selectRow(1299, inComponent: 2, animated: false)

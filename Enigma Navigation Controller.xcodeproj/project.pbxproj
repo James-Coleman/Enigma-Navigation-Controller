@@ -16,6 +16,10 @@
 		1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E941BB154A1007921E1 /* CodeViewController.swift */; };
 		1E5900F71BB2B25300A3FE8C /* CheatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */; };
 		1E5900F91BB41E5200A3FE8C /* EnigmaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */; };
+		1EEF07E61BF4EA1700B755F1 /* Plugboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF07E51BF4EA1700B755F1 /* Plugboard.swift */; };
+		1EEF07E81BF4FB3800B755F1 /* Lightboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF07E71BF4FB3800B755F1 /* Lightboard.swift */; };
+		1EEF07EA1BF5F4B400B755F1 /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF07E91BF5F4B400B755F1 /* KeyButton.swift */; };
+		1EEF07EC1BF62AFA00B755F1 /* SevenSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF07EB1BF62AFA00B755F1 /* SevenSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		1E508E941BB154A1007921E1 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheatViewController.swift; sourceTree = "<group>"; };
 		1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnigmaModel.swift; sourceTree = "<group>"; };
+		1EEF07E51BF4EA1700B755F1 /* Plugboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plugboard.swift; sourceTree = "<group>"; };
+		1EEF07E71BF4FB3800B755F1 /* Lightboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lightboard.swift; sourceTree = "<group>"; };
+		1EEF07E91BF5F4B400B755F1 /* KeyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyButton.swift; sourceTree = "<group>"; };
+		1EEF07EB1BF62AFA00B755F1 /* SevenSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,9 @@
 		1E508E811BB14806007921E1 /* Enigma Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1EEF07EB1BF62AFA00B755F1 /* SevenSwitch.swift */,
+				1EEF07E91BF5F4B400B755F1 /* KeyButton.swift */,
+				1EEF07E51BF4EA1700B755F1 /* Plugboard.swift */,
 				1E0985DE1BF259B900BFBDA6 /* Montserrat-Regular.ttf */,
 				1E5900F81BB41E5200A3FE8C /* EnigmaModel.swift */,
 				1E508E821BB14806007921E1 /* AppDelegate.swift */,
@@ -69,6 +80,7 @@
 				1E508E941BB154A1007921E1 /* CodeViewController.swift */,
 				1E5900F61BB2B25300A3FE8C /* CheatViewController.swift */,
 				1E508E861BB14806007921E1 /* Main.storyboard */,
+				1EEF07E71BF4FB3800B755F1 /* Lightboard.swift */,
 				1E508E891BB14806007921E1 /* Assets.xcassets */,
 				1E508E8B1BB14806007921E1 /* LaunchScreen.storyboard */,
 				1E508E8E1BB14806007921E1 /* Info.plist */,
@@ -107,6 +119,7 @@
 				TargetAttributes = {
 					1E508E7E1BB14806007921E1 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = FCMSTX9VM9;
 					};
 				};
 			};
@@ -148,10 +161,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E5900F91BB41E5200A3FE8C /* EnigmaModel.swift in Sources */,
+				1EEF07E81BF4FB3800B755F1 /* Lightboard.swift in Sources */,
 				1E5900F71BB2B25300A3FE8C /* CheatViewController.swift in Sources */,
+				1EEF07EC1BF62AFA00B755F1 /* SevenSwitch.swift in Sources */,
+				1EEF07E61BF4EA1700B755F1 /* Plugboard.swift in Sources */,
 				1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */,
 				1E508E851BB14806007921E1 /* SetupViewController.swift in Sources */,
 				1E508E831BB14806007921E1 /* AppDelegate.swift in Sources */,
+				1EEF07EA1BF5F4B400B755F1 /* KeyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Enigma Navigation Controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iSOS.Enigma-Navigation-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -275,10 +295,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Enigma Navigation Controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iSOS.Enigma-Navigation-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
