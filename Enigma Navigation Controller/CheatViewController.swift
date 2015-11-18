@@ -42,6 +42,8 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
     
     @IBOutlet weak var pickerViewLetterbox: UIView!
     
+    @IBOutlet weak var textFieldBackground: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -62,6 +64,12 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         pickerViewLetterbox.layer.cornerRadius = 2
         pickerViewLetterbox.layer.borderColor = UIColor(white: 151/255, alpha: 1).CGColor
         pickerViewLetterbox.layer.borderWidth = 2
+        
+        // Setup the textField background
+        
+        textFieldBackground.layer.cornerRadius = 2
+        textFieldBackground.layer.borderColor = UIColor(white: 151/255, alpha: 1).CGColor
+        textFieldBackground.layer.borderWidth = 2
         
     }
 
