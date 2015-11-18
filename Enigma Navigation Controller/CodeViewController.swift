@@ -37,9 +37,11 @@ class CodeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     // MARK: History visibilty.
     
     @IBOutlet weak var history: UILabel!
+    @IBOutlet weak var historyBackground: UIView!
     
     @IBAction func historyVisible(sender: SevenSwitch) {
         history.hidden = !sender.on
+        historyBackground.hidden = !sender.on
     }
 
     override func viewDidLoad() {
