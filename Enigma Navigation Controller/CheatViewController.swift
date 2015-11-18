@@ -40,6 +40,8 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
 
     @IBOutlet weak var textField: UITextField!
     
+    @IBOutlet weak var pickerViewLetterbox: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -54,6 +56,12 @@ class CheatViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         enigma.initialiseOffset()
         
         textField.becomeFirstResponder()
+        
+        // Setup the pickerView letterbox
+        
+        pickerViewLetterbox.layer.cornerRadius = 2
+        pickerViewLetterbox.layer.borderColor = UIColor(white: 151/255, alpha: 1).CGColor
+        pickerViewLetterbox.layer.borderWidth = 2
         
     }
 

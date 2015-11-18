@@ -34,15 +34,21 @@ class CodeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         return pickerLabel
     }
     
-    // MARK: History visibilty.
+    // History outlet for adding text.
     
     @IBOutlet weak var history: UILabel!
+    
+    // MARK: History visibilty.
+    
     @IBOutlet weak var historyBackground: UIView!
     
     @IBAction func historyVisible(sender: SevenSwitch) {
-        history.hidden = !sender.on
         historyBackground.hidden = !sender.on
     }
+    
+    @IBOutlet weak var lightboardBackground: UIView!
+    
+    @IBOutlet weak var pickerViewLetterbox: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +64,15 @@ class CodeViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         enigma.initialiseOffset()
         
         // Note: Don't need to 'clear' the history due to the view unloading.
+        
+        // Round the corners of the necessary views.
+        
+        historyBackground.layer.cornerRadius = 2
+        lightboardBackground.layer.cornerRadius = 2
+        
+        pickerViewLetterbox.layer.cornerRadius = 2
+        pickerViewLetterbox.layer.borderColor = UIColor(white: 151/255, alpha: 1).CGColor
+        pickerViewLetterbox.layer.borderWidth = 2
         
     }
 

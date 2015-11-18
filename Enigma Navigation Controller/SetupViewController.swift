@@ -470,6 +470,8 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     // Finish setting up rotors.
     
     @IBOutlet weak var bottomConstraint : NSLayoutConstraint!
+    
+    @IBOutlet var letterBoxes: [UIView]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -491,6 +493,14 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         rotorWindows.selectRow(1299, inComponent: 2, animated: false)
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardChanged:", name: UIKeyboardWillChangeFrameNotification, object: nil) // Call the function keyboardChanged() if the keyboard appears or disappears.
+        
+        // Stroke and round the corners of the pickerView letterboxes.
+        
+        for letterBox in letterBoxes {
+            letterBox.layer.cornerRadius = 2
+            letterBox.layer.borderColor = UIColor(white: 151/255, alpha: 1).CGColor
+            letterBox.layer.borderWidth = 2
+        }
         
     }
     
