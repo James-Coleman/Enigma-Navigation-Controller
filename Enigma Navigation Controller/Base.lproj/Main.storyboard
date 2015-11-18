@@ -128,49 +128,49 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H0z-ee-LMd">
-                                <rect key="frame" x="20" y="175" width="728" height="36"/>
+                                <rect key="frame" x="20" y="172" width="728" height="36"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="0d7-fF-kPq"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhf-dm-bJl">
-                                <rect key="frame" x="20" y="426" width="728" height="36"/>
+                                <rect key="frame" x="20" y="415" width="728" height="36"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="H4s-ki-Sm4"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upd-lY-kK5">
-                                <rect key="frame" x="20" y="677" width="728" height="36"/>
+                                <rect key="frame" x="20" y="658" width="728" height="36"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="r5J-Py-Ol8"/>
                                 </constraints>
                             </view>
                             <pickerView contentMode="scaleToFill" showsSelectionIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCH-XC-kZL" userLabel="Chosen Rotors">
-                                <rect key="frame" x="20" y="72" width="728" height="243"/>
+                                <rect key="frame" x="20" y="72" width="728" height="235"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="iD1-sC-hCj"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="yhw-zC-Tbp"/>
                                 </connections>
                             </pickerView>
                             <pickerView contentMode="scaleToFill" showsSelectionIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqL-cq-7JV" userLabel="Ring Settings">
-                                <rect key="frame" x="20" y="323" width="728" height="242"/>
+                                <rect key="frame" x="20" y="315" width="728" height="236"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="HC5-TU-BcM"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="eNs-SQ-6hu"/>
                                 </connections>
                             </pickerView>
                             <pickerView contentMode="scaleToFill" showsSelectionIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ph-Ul-cAA" userLabel="Rotor Windows">
-                                <rect key="frame" x="20" y="573" width="728" height="243"/>
+                                <rect key="frame" x="20" y="559" width="728" height="235"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="DDW-hT-wik"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="uEL-qz-cKK"/>
                                 </connections>
                             </pickerView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mqZ-2m-BfD" userLabel="Top Plugs">
-                                <rect key="frame" x="20" y="824" width="728" height="40"/>
+                                <rect key="frame" x="20" y="814" width="728" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Q" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuW-30-Mvz">
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -329,7 +329,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DpC-Al-CNK" userLabel="Middle Plugs">
-                                <rect key="frame" x="60" y="864" width="648" height="40"/>
+                                <rect key="frame" x="60" y="854" width="648" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivh-G1-RRV">
                                         <rect key="frame" x="0.0" y="0.0" width="41" height="40"/>
@@ -471,7 +471,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zkm-Wc-ahP" userLabel="Bottom Plugs">
-                                <rect key="frame" x="20" y="904" width="728" height="40"/>
+                                <rect key="frame" x="20" y="894" width="728" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVA-0L-enl">
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -656,8 +656,8 @@
                                     <segue destination="u0C-3y-Xw8" kind="show" identifier="BeginCheating" id="Ehq-3Y-2Bk"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ltj-5D-VtZ">
-                                <rect key="frame" x="10" y="813" width="748" height="131"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ltj-5D-VtZ">
+                                <rect key="frame" x="10" y="804" width="748" height="140"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
@@ -668,6 +668,7 @@
                             <constraint firstItem="qCH-XC-kZL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8mV-9h-2OD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Zkm-Wc-ahP" secondAttribute="trailing" id="989-du-gCw"/>
                             <constraint firstItem="9ph-Ul-cAA" firstAttribute="height" secondItem="qCH-XC-kZL" secondAttribute="height" id="9WU-LR-50Y"/>
+                            <constraint firstItem="WId-6A-ayA" firstAttribute="top" secondItem="Ltj-5D-VtZ" secondAttribute="bottom" id="Bdj-Yz-xTU"/>
                             <constraint firstItem="nqL-cq-7JV" firstAttribute="centerY" secondItem="zhf-dm-bJl" secondAttribute="centerY" id="Crm-Dd-R9Y"/>
                             <constraint firstItem="zhf-dm-bJl" firstAttribute="leading" secondItem="nqL-cq-7JV" secondAttribute="leading" id="IlA-Yf-LM0"/>
                             <constraint firstItem="DpC-Al-CNK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="JZi-RN-n76"/>
@@ -684,11 +685,12 @@
                             <constraint firstItem="H0z-ee-LMd" firstAttribute="centerX" secondItem="qCH-XC-kZL" secondAttribute="centerX" id="W2P-LF-Pue"/>
                             <constraint firstItem="9ph-Ul-cAA" firstAttribute="height" secondItem="qCH-XC-kZL" secondAttribute="height" id="Zsu-4C-ReI"/>
                             <constraint firstItem="nqL-cq-7JV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="c8a-SY-Nar"/>
-                            <constraint firstItem="12G-oW-IQV" firstAttribute="top" secondItem="Zkm-Wc-ahP" secondAttribute="bottom" id="e85-Sq-DcD"/>
                             <constraint firstItem="mqZ-2m-BfD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eB9-FK-ysm"/>
                             <constraint firstItem="Ltj-5D-VtZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-10" id="eSV-Gi-tcV"/>
+                            <constraint firstItem="Ltj-5D-VtZ" firstAttribute="top" secondItem="9ph-Ul-cAA" secondAttribute="bottom" constant="10" id="eXK-6N-PFJ"/>
                             <constraint firstItem="qCH-XC-kZL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fv2-XO-axi"/>
                             <constraint firstItem="Upd-lY-kK5" firstAttribute="centerY" secondItem="9ph-Ul-cAA" secondAttribute="centerY" id="gGV-MT-3Oj"/>
+                            <constraint firstItem="Zkm-Wc-ahP" firstAttribute="bottom" secondItem="Ltj-5D-VtZ" secondAttribute="bottom" constant="-10" id="gcg-V3-5Gs"/>
                             <constraint firstItem="9ph-Ul-cAA" firstAttribute="top" secondItem="nqL-cq-7JV" secondAttribute="bottom" constant="8" id="hgk-0H-BOA"/>
                             <constraint firstItem="nqL-cq-7JV" firstAttribute="height" secondItem="qCH-XC-kZL" secondAttribute="height" id="im1-5D-3fw"/>
                             <constraint firstItem="Upd-lY-kK5" firstAttribute="centerX" secondItem="9ph-Ul-cAA" secondAttribute="centerX" id="lHv-FY-Z4L"/>
@@ -697,7 +699,7 @@
                             <constraint firstItem="nqL-cq-7JV" firstAttribute="centerX" secondItem="zhf-dm-bJl" secondAttribute="centerX" id="pJU-6j-rvE"/>
                             <constraint firstItem="Zkm-Wc-ahP" firstAttribute="top" secondItem="DpC-Al-CNK" secondAttribute="bottom" id="qD0-Ls-Idz"/>
                             <constraint firstItem="12G-oW-IQV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qM2-2M-kY7"/>
-                            <constraint firstItem="mqZ-2m-BfD" firstAttribute="top" secondItem="9ph-Ul-cAA" secondAttribute="bottom" constant="8" id="wlE-wg-vmb"/>
+                            <constraint firstItem="mqZ-2m-BfD" firstAttribute="top" secondItem="Ltj-5D-VtZ" secondAttribute="top" constant="10" id="uYx-Ah-kXh"/>
                             <constraint firstItem="nqL-cq-7JV" firstAttribute="top" secondItem="qCH-XC-kZL" secondAttribute="bottom" constant="8" id="x06-z0-xAh"/>
                             <constraint firstItem="nqL-cq-7JV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="x8h-xJ-DHJ"/>
                             <constraint firstItem="Zkm-Wc-ahP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xNM-PY-BVr"/>
@@ -736,6 +738,7 @@
                         <outlet property="outletX" destination="MgI-iD-ilU" id="tCv-9C-kMY"/>
                         <outlet property="outletY" destination="VPY-pA-X7J" id="I4v-oc-fBo"/>
                         <outlet property="outletZ" destination="Egu-8P-ddh" id="CbP-Jc-tnZ"/>
+                        <outlet property="plugboardFrame" destination="Ltj-5D-VtZ" id="XvV-H7-h5I"/>
                         <outlet property="ringSettings" destination="nqL-cq-7JV" id="qC0-fa-oNS"/>
                         <outlet property="rotorSelection" destination="qCH-XC-kZL" id="MGI-iq-dXV"/>
                         <outlet property="rotorWindows" destination="9ph-Ul-cAA" id="rUT-VV-fs9"/>

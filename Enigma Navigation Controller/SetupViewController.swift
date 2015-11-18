@@ -473,6 +473,8 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     @IBOutlet var letterBoxes: [UIView]!
 
+    @IBOutlet weak var plugboardFrame: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -501,6 +503,12 @@ class SetupViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             letterBox.layer.borderColor = UIColor(white: 151/255, alpha: 1).CGColor
             letterBox.layer.borderWidth = 2
         }
+        
+        // Stroke and round the plugboard frame
+        
+        plugboardFrame.layer.cornerRadius = 2
+        plugboardFrame.layer.borderColor = UIColor(white: 151/255, alpha: 1).CGColor
+        plugboardFrame.layer.borderWidth = 2
         
     }
     

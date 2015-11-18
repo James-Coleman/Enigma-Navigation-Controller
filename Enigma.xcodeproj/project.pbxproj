@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1E0985DF1BF259B900BFBDA6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E0985DE1BF259B900BFBDA6 /* Montserrat-Regular.ttf */; };
-		1E4AF9D51BFC960F0062798E /* OffsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4AF9D41BFC960F0062798E /* OffsetTextField.swift */; };
 		1E508E831BB14806007921E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E821BB14806007921E1 /* AppDelegate.swift */; };
 		1E508E851BB14806007921E1 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E508E841BB14806007921E1 /* SetupViewController.swift */; };
 		1E508E881BB14806007921E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E508E861BB14806007921E1 /* Main.storyboard */; };
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		1E0985DE1BF259B900BFBDA6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		1E4AF9D41BFC960F0062798E /* OffsetTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetTextField.swift; sourceTree = "<group>"; };
 		1E508E7F1BB14806007921E1 /* Enigma.temp_caseinsensitive_rename Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enigma.temp_caseinsensitive_rename Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E508E821BB14806007921E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E508E841BB14806007921E1 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				1E508E891BB14806007921E1 /* Assets.xcassets */,
 				1E508E8B1BB14806007921E1 /* LaunchScreen.storyboard */,
 				1E508E8E1BB14806007921E1 /* Info.plist */,
-				1E4AF9D41BFC960F0062798E /* OffsetTextField.swift */,
 			);
 			path = "Enigma Navigation Controller";
 			sourceTree = "<group>";
@@ -171,7 +168,6 @@
 				1E508E951BB154A1007921E1 /* CodeViewController.swift in Sources */,
 				1E508E851BB14806007921E1 /* SetupViewController.swift in Sources */,
 				1E508E831BB14806007921E1 /* AppDelegate.swift in Sources */,
-				1E4AF9D51BFC960F0062798E /* OffsetTextField.swift in Sources */,
 				1EEF07EA1BF5F4B400B755F1 /* KeyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
