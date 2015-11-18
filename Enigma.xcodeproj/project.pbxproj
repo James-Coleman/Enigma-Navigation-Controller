@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		1E0985DE1BF259B900BFBDA6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		1E508E7F1BB14806007921E1 /* Enigma Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enigma Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E508E7F1BB14806007921E1 /* Enigma.temp_caseinsensitive_rename Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enigma.temp_caseinsensitive_rename Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E508E821BB14806007921E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E508E841BB14806007921E1 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		1E508E871BB14806007921E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		1E508E801BB14806007921E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E508E7F1BB14806007921E1 /* Enigma Navigation Controller.app */,
+				1E508E7F1BB14806007921E1 /* Enigma.temp_caseinsensitive_rename Navigation Controller.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			);
 			name = "Enigma Navigation Controller";
 			productName = "Enigma Navigation Controller";
-			productReference = 1E508E7F1BB14806007921E1 /* Enigma Navigation Controller.app */;
+			productReference = 1E508E7F1BB14806007921E1 /* Enigma.temp_caseinsensitive_rename Navigation Controller.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E508E7A1BB14806007921E1 /* Build configuration list for PBXProject "Enigma Navigation Controller" */;
+			buildConfigurationList = 1E508E7A1BB14806007921E1 /* Build configuration list for PBXProject "Enigma" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -286,7 +286,7 @@
 				INFOPLIST_FILE = "Enigma Navigation Controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iSOS.Enigma-Navigation-Controller";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Enigma.temp_caseinsensitive_rename Navigation Controller";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -300,7 +300,7 @@
 				INFOPLIST_FILE = "Enigma Navigation Controller/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iSOS.Enigma-Navigation-Controller";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Enigma.temp_caseinsensitive_rename Navigation Controller";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -308,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E508E7A1BB14806007921E1 /* Build configuration list for PBXProject "Enigma Navigation Controller" */ = {
+		1E508E7A1BB14806007921E1 /* Build configuration list for PBXProject "Enigma" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E508E8F1BB14806007921E1 /* Debug */,
